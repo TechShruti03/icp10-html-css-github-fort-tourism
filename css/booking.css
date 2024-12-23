@@ -40,3 +40,21 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.booking-page input,
+.booking-page select,
+.booking-page button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-page button {
+    background: #3b1e08;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
