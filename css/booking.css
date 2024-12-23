@@ -83,9 +83,20 @@ body{
     text-align: center;
    
 }
-}
 .fort1:hover{
     box-shadow: 1px 1px 15px 10px #ffc34d;
     scale: 105%;
     transition: 0.2s;
+}
+.Raigadname{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    
+}
+.fortimages{
+    height: 150px;
+     width: 100%; 
+     border-top-left-radius: 10px; 
+     border-top-right-radius: 10px;
 }
