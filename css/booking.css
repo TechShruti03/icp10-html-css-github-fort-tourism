@@ -83,3 +83,9 @@ body{
     text-align: center;
    
 }
+}
+.fort1:hover{
+    box-shadow: 1px 1px 15px 10px #ffc34d;
+    scale: 105%;
+    transition: 0.2s;
+}
