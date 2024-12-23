@@ -1,4 +1,4 @@
-body {
+body{
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,8 +6,7 @@ body {
     height: 100vh;
     background: linear-gradient( #654321, #2c1608);
     font-family: Arial, sans-serif;
-   
-    flex-wrap: wrap;
+   flex-wrap: wrap;
 }
 .booking-page {
     position: relative;
@@ -23,7 +22,6 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 .booking-page h1 {
     font-size: 3em;
     color: #ffffff;
@@ -50,7 +48,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
 .booking-page button {
     background: #3b1e08;
     color: white;
@@ -66,16 +63,23 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 20px 10px rgb(96, 23, 23);
 }
-
 .subcontainers{
     background-image: url(/img/fort\ wall\ 4.jpg);
     height: 500px;
     width: 1360px;
     background-color: aliceblue;
-   
-    position: relative;
+   position: relative;
    left: 1px;
    display: flex;
    justify-content: center;
+}
+.fort1{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    background-color:#bf8040;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
    
 }
