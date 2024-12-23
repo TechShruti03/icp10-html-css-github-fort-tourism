@@ -66,3 +66,16 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 20px 10px rgb(96, 23, 23);
 }
+
+.subcontainers{
+    background-image: url(/img/fort\ wall\ 4.jpg);
+    height: 500px;
+    width: 1360px;
+    background-color: aliceblue;
+   
+    position: relative;
+   left: 1px;
+   display: flex;
+   justify-content: center;
+   
+}
