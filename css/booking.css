@@ -58,3 +58,11 @@ body {
     cursor: pointer;
     transition: background 0.3s;
 }
+.booking-page button:hover {
+    background: #5A2D0C;
+}
+.heading{
+    background-color: #bd6a05;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 10px rgb(96, 23, 23);
+}
