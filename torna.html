@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images/bgimg.png" height="100px" width="800px" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+             margin: 0;
+             padding: 0; 
+             box-sizing: border-box;
+        }
+        .container
+        {
+             height: 160px;
+             width: 100%;
+             flex-direction: row;
+             display: flex;
+             flex-wrap: wrap;
+             border-radius: none;
+             background: rgba(0, 0, 0, 0.4);
+             padding: 10px;
+        }
+        .head
+        {
+             margin: 50px 0 0 0;
+        } 
+        .img
+        {
+            height: 90px;
+            width: 130px;
+            margin-inline-start:-1px;
+            margin-top: -20px;
+            border: 1px;
+            border-radius: 60%;
+        }
+        .navbar
+        {
+             display: flex;
+             text-align: start; 
+        }
+        #Nav
+        {
+             font-size: 17px;
+             margin:70px 0 0 10px;
+        }
+        a{
+            color:#fff;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#ff6600;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conatiner_home">
+    <div class="container">
+     <div class="head" >
+        <img src="./../img/logo.jpeg" alt="Logo" class="img"><span></span>
+     </div>
+        <!-------Navbars-------->
+        <div class="navbar">  
+        <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a></p>
+        <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
+        <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
+        <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+        <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
+        <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
