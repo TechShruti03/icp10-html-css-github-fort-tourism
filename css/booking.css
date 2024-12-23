@@ -106,3 +106,17 @@ body{
      border-radius: 30px;
      margin-bottom: 0%;
 }
+.Tour{
+    height: 630px;
+    width: 1350px;
+    background-color: #bf8040;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.tourpic{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
