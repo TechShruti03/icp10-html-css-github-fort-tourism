@@ -243,3 +243,30 @@ body{
     padding: 10px;
     margin-top: 90px;
     }
+    #footer_text1
+    {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-inline-start: 80px;
+        padding: 10px;
+        margin-top: -110px;
+    }
+    #footer_text2
+    {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-inline-start: -40px;
+        padding: 30px;
+        margin-top: -90px;
+    }
+    #footer_text3
+    {
+        color: #fff;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-inline-start: -40px;
+        padding: 30px;
+        margin-top: -30px;
+    } 
