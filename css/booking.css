@@ -126,4 +126,34 @@ body{
     scale: 102%;
     transition: 0.2s;
 }
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: #f08325;
+    border: 3px dashed rgb(21, 15, 15);
+    display: flex;
 
+}
+.footerimage{
+    height: 60px;
+    border-radius: 30px;
+    margin: 15px;
+}
+.footer_sub
+{
+   display: flex;
+    height: 350px;
+    width: 100%;
+    background-color:  #f08325;
+    margin-left: 20px;
+ }
+ .footer_1
+ {
+     height: 300px;
+     width: 440px;
+     flex-direction: row;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 20px;
+    
+}
