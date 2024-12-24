@@ -1,0 +1,24 @@
+.des{
+    font-size: 20px;
+    text-align: justify;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-evenly;
+}
+
+.whole_page{
+    padding: 20px;
+    background-color: aquamarine;
+    
+}
+.fort{
+    margin: 10px;
+    display:block;
+    height: 300px;
+    width: 450px;;
+    border: black 1px solid;
+    
+}
+

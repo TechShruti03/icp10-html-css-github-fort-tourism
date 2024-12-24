@@ -1,109 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Raigad fort</title>
+   <link rel="stylesheet" href="./../css/style.css">
    <style>
-       *{
-             margin: 0;
-             padding: 0; 
-             box-sizing: border-box;
-        }
-        .container
-        {
-             height: 160px;
-             width: 100%;
-             flex-direction: row;
-             display: flex;
-             flex-wrap: wrap;
-             border-radius: none;
-             background: rgba(0, 0, 0, 0.4);
-             padding: 10px;
-        }
-        .item {
-             background-color: #fad8a4;
-             height: 450px;
-             width: 400px;
-             margin: 10px;
-             font-size: 50px;
-             padding: 10px;
-             border-radius: 10px;
-             border: solid 1px rgb(245, 170, 105);
-        }
-        .item:hover{
-            background-color: hwb(43 40% 7%);
-            transition: 0.5s;
-        }
-        .container2{
-            height: 490px;
-            width: 1300px;
-            background-color:rgb(243, 246, 248);
-            flex-direction: row;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            border-radius: 10px;
-            padding: 10px;
-        }
-        .head
-        {
-             margin: 50px 0 0 0;
-        } 
-        .img
-        {
-            height: 90px;
-            width: 130px;
-            margin-inline-start:-1px;
-            margin-top: -20px;
-            border: 1px;
-            border-radius: 60%;
-        }
-        .navbar
-        {
-             display: flex;
-             text-align: start; 
-        }
-        #Nav
-        {
-             font-size: 17px;
-             margin:70px 0 0 10px;
-        }
-        a{
-            color:#fff;
-            text-decoration: none;
-        }
-        a:hover{
-            color:#ff6600;
-        }
-        .heading{
-         text-align: center;
-         color:hsl(24, 100%, 44%);
-            font-style: bold; 
-            margin: 10px 0px;
-            font-size: 50px;
-        }
-      
-        
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
 
+      .container {
+         height: 160px;
+         width: 100%;
+         flex-direction: row;
+         display: flex;
+         flex-wrap: wrap;
+         border-radius: none;
+         background: rgba(0, 0, 0, 0.4);
+         padding: 10px;
+      }
+
+      .item {
+         background-color: #fad8a4;
+         height: 450px;
+         width: 400px;
+         margin: 10px;
+         font-size: 50px;
+         padding: 10px;
+         border-radius: 10px;
+         border: solid 1px rgb(245, 170, 105);
+      }
+
+      .item:hover {
+         background-color: hwb(43 40% 7%);
+         transition: 0.5s;
+      }
+
+      .container2 {
+         height: 490px;
+         width: 1300px;
+         background-color: rgb(243, 246, 248);
+         flex-direction: row;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         border-radius: 10px;
+         padding: 10px;
+      }
+
+      .head {
+         margin: 50px 0 0 0;
+      }
+
+      .img {
+         height: 90px;
+         width: 130px;
+         margin-inline-start: -1px;
+         margin-top: -20px;
+         border: 1px;
+         border-radius: 60%;
+      }
+
+      .navbar {
+         display: flex;
+         text-align: start;
+      }
+
+      #Nav {
+         font-size: 17px;
+         margin: 70px 0 0 10px;
+      }
+
+      a {
+         color: #fff;
+         text-decoration: none;
+      }
+
+      a:hover {
+         color: #ff6600;
+      }
+
+      .heading {
+         text-align: center;
+         color: hsl(24, 100%, 44%);
+         font-style: bold;
+         margin: 10px 0px;
+         font-size: 50px;
+      }
    </style>
 </head>
+
 <body>
    <div class="container_torna_fort">
       <div class="container">
-       <div class="head" >
-          <img src="./../img/logo.jpeg" alt="Logo" class="img"><span></span>
-       </div>
-          <!-------Navbars-------->
-          <div class="navbar">  
-          <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a></p>
-          <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
-          <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
-          <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
-          <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
-          <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
-          </div>
+         <div class="head">
+            <img src="./../img/logo.jpeg" alt="Logo" class="img"><span></span>
+         </div>
+         <!-------Navbars-------->
+         <div class="navbar">
+            <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a>
+            </p>
+            <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
+            <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
+            <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+            <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
+            <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+         </div>
       </div>
+      <div class="whole_page">
       <h1 class="heading">Raigad Fort: A Symbol of Maratha Glory</h1>
+      <p class="des">The Raigad Fort is an aesthetically and majestically appealing hill fort in the district of Raigad,
+         Maharashtra. It is known as the “Gibraltar of the East” by the Europeans. The Raigad Fort height is 820 meters
+         above sea level of the Sahyadri mountain range. Comprising of 1737 steps, the fort can be accessed by a single
+         pathway.
+
+         Its strategic build speaks of the clever architecture. The inside Raigad Fort is surrounded by deep green
+         valleys and has several gateways that enthrall its visitors such as Nagarkhana Darwaja, Palkhi Darwaja, Mena
+         Darwaja, and the majestic Maha Darwaja. However, the main entrance to the imperial structure is Maha Darwaja.
+         In today’s time, the Raigad fort serves as a living reminder of the valor and glory of the Marathas.
+      </p>
+   <table class="image">
+      <tr >
+         <td><img src="./../img/raigad_img1.jpg" height="400px"  class="fort" ></td>
+         <td><img src="./../img/raigad_img2.jpg" height="400px" class="fort"></td>
+         <td><img src="./../img/raigad_img3.jpg" height="400px" class="fort"></td>
+         </tr>
+   </table>
+   <table class="image">
+      <tr>
+         <td><img src="./../img/raigad_img4.jpg" height="400px" class="fort"></td>
+         <td><img src="./../img/raigad.img5.jpg" height="400px" class="fort"></td>
+         <td><img src="./../img/raigad.img6.jpg" height="400px" class="fort"></td>
+      </tr>
+   </table>
+   </div>
 </body>
+
 </html>
