@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="icon" href="logofort.png" type="image/x-icon">
     <link rel="shortcut icon" href="./images/bgimg.png" height="100px" width="800px" type="image/x-icon">
+    <link rel="stylesheet" href="./../css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -25,6 +26,31 @@
              border-radius: none;
              background: rgba(0, 0, 0, 0.4);
              padding: 10px;
+        }
+        .item {
+             background-color: #fad8a4;
+             height: 450px;
+             width: 400px;
+             margin: 10px;
+             font-size: 50px;
+             padding: 10px;
+             border-radius: 10px;
+             border: solid 1px rgb(245, 170, 105);
+        }
+        .item:hover{
+            background-color: hwb(43 40% 7%);
+            transition: 0.5s;
+        }
+        .container2{
+            height: 490px;
+            width: 1300px;
+            background-color:rgb(243, 246, 248);
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            border-radius: 10px;
+            padding: 10px;
         }
         .head
         {
@@ -58,15 +84,48 @@
         }
         .heading
         {
-            font-size: 40px;
+            font-size: 50px;
             color:hsl(24, 100%, 44%);
             font-style: bold;  
         }
         .container_torna_fort{
-            height: 95%;
+            height: 100%;
             width: 100%;
-            background-image: url(./../img/background3.jpg);
+            background-image: url(./../img/background1.jpg);
             background-size: cover;
+        }
+        .video-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: box-shadow 0.3s ease-in-out;
+            height: 300px;
+            width: 500px;
+        }
+        .video-container:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 0, 0, 0.8);
+        }
+        #Btn1
+        {
+            font-size: 30px;
+            width: 150px;
+            color:wheat;
+            background-color: #f56633;
+            margin: 5px 0 27px 700px;
+            padding-right: 10px;
+            border-radius: 10px;
+            border-style: none;
+            cursor: pointer;
+        }
+        #Btn1:hover
+        {
+            background-color: #ff6600;
+            box-shadow: 1px 2px 2px 3px black;
+            transition: 1s;
+        }
+        .font{
+            font-size: 17px;
         }
 
     </style>
@@ -87,34 +146,37 @@
         <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
         </div>
     </div>
-    <center><p class="heading">TORNA FORT</p></center><br/>
-
+    <center><p class="heading"><b>TORNA FORT</b></p></center><br/>
+   
+    <div class="font">
     <center>Torna Fort is the highest hill-fort in the Pune District. Situated at an altitude of 4,603 ft from sea level, 
         it stands out among other forts in the western ghats of Maharashtra.Because of the massive size of the fort, it 
         is also called <b>Prachandagad</b>.This name is derived from Marathi which means Prachanda massive and gad a fort.
         Torna fort was the first fort captured by Chhatrapati Shivaji Maharaj in 1646 when he was 16 years old. This is where 
         the core of the Maratha empire was built. It has a great history as it has gone under many rulers. 
     </center><br/>
+    </div>
 
     <table>
         <tr>
             <td>
                 <center>
-                    &nbsp;&nbsp;<img src="/../img/torna_fort.jpg" height="300px" width="400px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;<img src="./../img/torna_fort.jpg" height="300px" width="400px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </center>
             </td>
             <td>
-                <img src="/../img/torna_fort2.jpg" height="300px" width="300px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./../img/torna_fort2.jpg" height="300px" width="300px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td>
-                <img src="/../img/torna_fort3.jpg" height="300px" width="300px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="./../img/torna_fort3.jpg" height="300px" width="300px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </td>
             <td>
-                <img src="/../img/torna_fort4.jpg" height="300px" width="400px">
+                <img src="./../img/torna_fort4.jpg" height="300px" width="400px">
             </td>
         </tr>
     </table><br/>
     <hr/>
+    <div class="font">
     <h2>Historical Significance:</h2><br/>
 
         This fort is believed to have been constructed by the Shiva Panth in the 13th century. A Menghai Devi temple, 
@@ -131,8 +193,93 @@
         The Torna Fort is a popular destination for trekkers specially after the south-west monsoon, from September to December. Staying at fort 
         isn't allowed as per orders of District Collector, everyone is asked to leave the fort after 5:00pm. The Raigad, Lingana, Rajgad, Purandar fort, 
         Sinhagad are some forts that can be seen from Torna. Other places that are visible from the fort include the Budhla Machi, Zungar Machi, Kothi Darwaja, 
-        Konkan Darwaja, Menghai goddess temple, Bini Darwaja, Sadar, and the Toranji goddess temple.
-    
+        Konkan Darwaja, Menghai goddess temple, Bini Darwaja, Sadar, and the Toranji goddess temple.<br/><br/><br/>
+
     </div>
+        <center>
+        <div class="container2">
+            <div class="item"><img src="./../img/tornatrek.jpg" height="250px" width="300px"><br/>
+                <p style="font-size: 22px;color: maroon; "><b>Colourful flower beds on the trail</b><br/>
+                    <p style="font-size: 17px;">If you are doing the Torna Fort trek post-monsoon, you can see the trail full of Karvi, Bristly Smithia, 
+                Raan terda, Sonki, and many other wildflowers. As you get closer to the fort, you can see the entire trail filled with colourful flowers.</p> </div>
+
+            <div class="item"><img src="./../img/tornatrek2.jpg" height="250px" width="300px">
+            <p style="font-size: 22px;color: maroon;"><b>The huge Budhla Machi on the fort</b><br/>
+                <p style="font-size: 17px;"> Budhla machi on the Torna fort has a unique structure. Budhla in Marathi means vessel. And the shape of the machi is similar to an oil container kept
+                 upside down. Hence the name. It is believed that one of the reasons to call this fort as Prachandagad is the massive structure of this Budhla machi.</p></div>
+
+            <div class="item"><img src="./../img/tornatrek3.jpg" height="250px" width="300px">
+            <p style="font-size: 22px;color: maroon;"><b>Spectacular view from the fort</b><br/>
+                <p style="font-size: 17px;">The view from the fort is spectacular. You can see many famous forts like Raigad, Lingana, Rajgad, Purandar fort, Sinhagad, Raireshwar, Pratapgad, 
+                Mahabaleshwar mountain range, Mangalgad, Kavlya Fort, Mohangad, and Rohida Fort.</p></div><br/><br/>
+        </div>
+       </center>
+       <div><br/><br/>
+        <center>
+            <p style="color: maroon; font-size: 40px;"><b>Know more about TORNA FORT👇</b></p><br/><br/>
+            <table>
+                <tr>
+                    <td> 
+                        <div class="video-container">
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/V4UZSfmlHc0?si=mpN4w-qA_0iDljFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <div class="video-container">
+                        <iframe width="500" height="300" src="https://www.youtube.com/embed/kw6QnVZguho?si=A9H3YBLp3nYLhAnB" title="YouTube video player" frameborder="0" allow="accelerometer; 
+                        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table><br/><br/>
+        </center>
+    </div>
+    <a href="./booking.html" target="_blank"><button id="Btn1">Book a Tour <br></button></a><br>
+    </div>
+    <!----------Footer added-------------->
+<Footer>
+    <div class="footer_sub">
+        <div class="footer_1">
+            <img src="./../img/rajmudra.png" alt="img" id="footer_img"><span id="footer_name">CHHATRAPATI SHIVAJI MAHARAJ</span>
+            <p id="footer_text">Shivaji Maharaj, a visionary leader, founded the Maratha Empire through military innovations, wisdom quotes, and respect for women's rights, fostering harmony and inspiring generations with his legacy of resistance and governance.</p>
+            <a href="https://www.facebook.com/WeAreTeamIndia/" target="_blank">
+            <img src="./../img/icons/facebook_icon.png" alt="img" id="footer_add"></a>
+            <a href="https://www.instagram.com/WeAreTeamIndia/" target="_blank">
+            <img src="./../img/icons/instagram_icon.png" alt="img" id="footer_add"></a>
+            <a href="https://www.twitter.com/WeAreTeamIndia/" target="_blank">
+            <img src="./../img/icons/twitter_icon.png" alt="img" id="footer_add"></a>
+            <a href="https://www.linkdin.com/WeAreTeamIndia/" target="_blank">
+            <img src="./../img/icons/linkedin_icon.png" alt="img" id="footer_add"></a>
+            <a href="https://www.whatsapp.com/WeAreTeamIndia/" target="_blank">
+            <img src="./../img/icons/whatsapp_icon.png" alt="img" id="footer_add"></a>
+        </div>
+        <div class="footer_1">
+            <span id="link">Quick links</span>
+            <a href="./index.html">
+            <p id="link_1">Home</p></a>
+            <a href="./pages/about.html" target="_blank">
+            <p id="link_2">About</p></a>
+            <a href="./pages/gallery.html" target="_blank">
+            <p id="link_3">Gallery</p></a>
+            <a href="./pages/history.html" target="_blank">
+            <p id="link_4">Histroy</p></a>
+            <a href="./pages/login.html" target="_blank">
+            <p id="link_5">Login Office</p></a> 
+        </div>
+        <div class="footer_1">
+            <span id="link">Contact Us</span>
+            <a href="./../pages/location.html" target="_blank">
+            <img src="./../img/icons/location.png" alt="" id="location"></a>
+            <p id="footer_text1"> Fort Tourism, Mahalunge, Pune, Maharashtra 411045</p>
+            <a href="tel:+91-1239870990">
+            <img src="./../img/icons/phone_icon.png" alt="" id="location1"></a>
+            <p id="footer_text2">+91-1239870990</p>
+            <a href="mailto:chhatraptishivajimaharaj@gmail.com">
+            <img src="./../img/icons/gmail_icon.png" alt="" id="location2"></a>
+            <p id="footer_text3">chhatraptishivajimaharaj@gmail.com</p>
+        </div>
+    </div>  
+   </Footer>  
 </body>
 </html>
