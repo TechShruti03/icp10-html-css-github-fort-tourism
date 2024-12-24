@@ -136,5 +136,13 @@ transition: color 0.3s ease;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url('WhatsApp\ Image\ 2024-12-24\ at\ 1.13.16\ PM.jpeg');
+    background-image: url('.\img\background.jpg');
+}
+.fort-image img {
+    width: 90%;
+    margin-top: 40px;
+    height: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px; 
+  border-radius: 5px;
 }
