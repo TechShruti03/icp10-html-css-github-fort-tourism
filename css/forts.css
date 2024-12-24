@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+.container-navbar
+{
+    height: 80px;
+    width: 100%;
+    flex-direction: row;
+    top: 0;
+    display: flex;
+    border-radius: none;
+    align-items: center; 
+    background:rgba(0, 0, 0, 0.4);;
+  padding-top:-100px;
+  z-index: 1000;
+}
+.head
+{
+    margin: 50px 0 0 0;
+    height: 50px;
+} 
+.img
+{
+   height: 70px;
+   width: 100px;
+   margin-inline-start:-1px;
+   margin-top: -30px;
+   border: 1px;
+   border-radius: 60%;
+   margin-bottom: 40px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    margin: -30px 0 0 0;
+    padding-bottom: 30px;
+
+}
+#Nav
+{
+    font-size: 17px;
+    margin:70px 0 0 10px;
+}
+a{
+   color:#fff;
+   text-decoration: none;
+}
+a:hover{
+   color:#ff6600;
+}
+
+.title {
+    position: relative;
+    text-align: center; 
+    color: white; 
+    padding: 100px 20px; 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+}
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.title h1{
+font-size: 10vh;
+text-shadow: 2px black;
+transition: ease 0.3s;
+}
+
+.title h1:hover{
+color:transparent;
+-webkit-text-stroke: 1px white;
+
+}
+.paragraph-class{
+   font-size: 20px;
+}
+.event-button {
+    padding: 15px 15px;
+    margin-bottom: 100px; 
+    margin-left: 400px;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: rgb(255, 126, 39);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     top: 60px;
+  }
+  
+.text h2{
+font-size: 40px;
+font-weight: 650;
+margin-bottom: 10px;
+line-height: 2;
+text-align: center;
+transition: color 0.3s ease; 
+}
+
+.text-box h2:hover {
+    color:#ff0000;
+    transform: scale(1.2);
+}
+
+.container-row item {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .event-button:hover {
+    background-color: #ff752b;
+    color:#ffffff 
+  }
+  
+  .event-button:active {
+    background-color: #e57813;
+  }
