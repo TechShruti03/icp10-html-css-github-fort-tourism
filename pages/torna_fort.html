@@ -36,10 +36,14 @@
              border-radius: 10px;
              border: solid 1px rgb(245, 170, 105);
         }
+        .item:hover{
+            background-color: hwb(43 40% 7%);
+            transition: 0.5s;
+        }
         .container2{
             height: 440px;
             width: 1200px;
-            background-color:rgb(203, 233, 253);
+            background-color:rgb(243, 246, 248);
             flex-direction: row;
             display: flex;
             flex-wrap: wrap;
@@ -85,8 +89,20 @@
         .container_torna_fort{
             height: 100%;
             width: 100%;
-            background-image: url(./../img/background.jpg);
+            background-image: url(./../img/background1.jpg);
             background-size: cover;
+        }
+        .video-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: box-shadow 0.3s ease-in-out;
+            height: 200px;
+            width: 400px;
+        }
+        .video-container:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 0, 0, 0.8);
         }
 
     </style>
@@ -173,16 +189,20 @@
        </center>
        <div><br/><br/>
         <center>
-            <p style="color: #f9581d; font-size: 30px; background-color: #f9d2b7;"><b>Know more about TORNA FORT👇</b></p><br/><br/>
+            <p style="color: rgb(237, 70, 9); font-size: 30px;"><b>Know more about TORNA FORT👇</b></p><br/><br/>
             <table>
                 <tr>
                     <td> 
+                        <div class="video-container">
             <iframe width="400" height="200" src="https://www.youtube.com/embed/V4UZSfmlHc0?si=mpN4w-qA_0iDljFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
             clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                     <td>
+                        <div class="video-container">
                         <iframe width="400" height="200" src="https://www.youtube.com/embed/kw6QnVZguho?si=A9H3YBLp3nYLhAnB" title="YouTube video player" frameborder="0" allow="accelerometer; 
                         autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
                     </td>
                 </tr>
             </table>
