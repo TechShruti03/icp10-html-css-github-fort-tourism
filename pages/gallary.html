@@ -257,9 +257,12 @@
                 align-items: center;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
             }
-
-
-            @media screen and (min-width:760px){
+            .button:hover{
+                box-shadow: 1px 1px 15px 10px #ffc34d;
+                 scale: 102%;
+                 transition: 0.2s;
+            }
+             @media screen and (min-width:760px){
                 .images{
             display: flex;
             flex-wrap: wrap;
@@ -268,8 +271,6 @@
             height: 400px;
                        }
               }
-
-
 
     </style>
 </head>
@@ -350,11 +351,10 @@
     <br>
      </div>
      <center>
-       
-        <button style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div >1</div></button>
-        <button style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div >2</div></button>
-        <button style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div >3</div></button>
-        <button style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div > next>></div></button>
+       <button  class="button" style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div >1</div></button>
+        <button  class="button" style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div >2</div></button>
+        <button   class="button" style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div >3</div></button>
+        <button   class="button" style="height: 40px; width: 80px; background-color: #ffc34d; border-radius: 10px;" > <div > next &nbsp;>></div></button>
 
     </center>
 </div>
