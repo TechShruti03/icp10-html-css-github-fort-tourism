@@ -156,3 +156,7 @@ transition: color 0.3s ease;
     margin-bottom: 15px;
     margin-top: 60px;
 }
+.fort-info h2:hover{
+    background-color: #e66019;
+    color: #f2f2f2;
+}
