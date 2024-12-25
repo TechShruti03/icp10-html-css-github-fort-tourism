@@ -218,3 +218,11 @@ transition: color 0.3s ease;
     border: all 0.2s ease;
     border-radius: 5px;
 }
+.read-more-button {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.btn {
+    padding: 10px 10px;
+    font-size: 10px;
