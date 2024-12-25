@@ -211,3 +211,10 @@ transition: color 0.3s ease;
     font-size: 16px;
     color: #717070;
 }
+.container-box:hover{
+    transform: translateY(-5px); 
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 8px 10px rgb(255, 102, 0);
+    border: all 0.2s ease;
+    border-radius: 5px;
+}
