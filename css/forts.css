@@ -186,3 +186,4 @@ transition: color 0.3s ease;
 }
 .container-box{
     border: 1px solid #d3d3d3;
+    border-radius: 5px;
