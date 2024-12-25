@@ -187,3 +187,7 @@ transition: color 0.3s ease;
 .container-box{
     border: 1px solid #d3d3d3;
     border-radius: 5px;
+    padding: 10px 10px;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+    margin-top: 20px;
