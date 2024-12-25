@@ -253,3 +253,9 @@ a:hover {
     border-radius: 8px;
     cursor: pointer;
 }
+.btn:hover
+{
+    background-color: #f4821e;
+    color: #ffffff;
+    transition: 0.3s;
+}
