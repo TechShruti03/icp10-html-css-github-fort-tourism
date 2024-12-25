@@ -171,3 +171,7 @@ transition: color 0.3s ease;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 25px;
     text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #fce3d2;
+}
