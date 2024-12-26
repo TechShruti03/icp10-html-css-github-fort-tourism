@@ -258,3 +258,13 @@ a:hover {
     color: #ffffff;
     transition: 0.3s;
 }
+.container-information {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url('WhatsApp\ Image\ 2024-12-24\ at\ 1.13.16\ PM.jpeg');
+}
