@@ -258,13 +258,49 @@ a:hover {
     color: #ffffff;
     transition: 0.3s;
 }
-.container-information {
+.h1-fort {
+    margin-top: 60px;
+    font-size: 32px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .container{
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding: 20px;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-image: url('WhatsApp\ Image\ 2024-12-24\ at\ 1.13.16\ PM.jpeg');
-}
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    justify-content: space-between; /* Equal space between images */
+    padding: 30px;
+    gap: 25px;
+     box-shadow: solid #000000;
+     background-image: url(backgound\ image.jpeg);
+     width: 100%;
+  }
+
+  .fort {
+    text-align: center;
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px); /* Make sure each image takes up 25% of the width */
+    max-width: 200px;
+    border: 3px solid #000000; /* Max width for images */
+  }
+
+  .fort img {
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: px;
+    transition: transform 0.3s ease;
+  }
+
+  .fort img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 2px 5px 3px rgb(255, 102, 0);
+    border: 3px solid #000000;
+  }
+
+  .fort-name {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff4400;
+  }
