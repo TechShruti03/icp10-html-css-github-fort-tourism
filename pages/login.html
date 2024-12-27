@@ -19,6 +19,9 @@
              padding: 0; 
              box-sizing: border-box;
         }
+        body{
+            background-image: url('https://tse4.mm.bing.net/th/id/OIP.bsYSt_YbVyrQ4MZaSTYwQgHaFj?w=241&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+        }
         .container
         {
              height: 80px;
@@ -47,70 +50,109 @@
         {
              display: flex;
              text-align: start; 
+            
         }
         #Nav
         {
              font-size: 17px;
              margin:20px 0 0 10px;
+             
         }
         a{
             color:#fff;
             text-decoration: none;
         }
-        a:hover{
-            color:#ff6600;
-        }
-
+     
 
 
         .login-container {
-            position: relative; /* This makes the container the reference point for absolute positioning */
-           
+            position: relative; 
+            left:450px;
+            top:30px;
+            background-color: rgba(187, 186, 190, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width:500px;
+    height: 400px;
+    max-width: 400px;
+  
+        }  
             
+        h3{
+            font-size: 30px;
         }
 
-        .box {
-            position: absolute;
-            top: 90px;
-            left: 450px;
-            bottom: 700px;
-            display: inline;
-            margin: 10px 50px;
-            padding: 10px;
-            
+        .input1{
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position:absolute;
+        align-items: center;
+        right: 50px;
+        width: 300px;
+        border-radius: 20px;
            }
-           .input{
-            border: none;
+        .input2{
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position:absolute;
+        align-items: center;
+        right: 50px;
+        width: 300px;
+        border-radius: 20px;
+           }
+           
+        .input3{
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position:absolute;
+        align-items: center;
+        right: 50px;
+        width: 300px;
+        border-radius: 20px;
+           }
+           .input1:hover{
+            box-shadow: 2px 2px 1px 1px rgb(232, 32, 32);
+           }
+           .input2:hover{
+            box-shadow: 2px 2px 1px 1px rgb(232, 32, 32);
+           }
+           .input3:hover{
+            box-shadow: 2px 2px 1px 1px rgb(232, 32, 32);
+           }
+           .btn:hover{
+        box-shadow: 2px 2px 1px 1px rgb(45, 42, 42);
+    }
+
+           .btn{
+            
+        border: none;
         padding: 13px;
         margin: 10px ;
         position: relative;
-        bottom: 80px;
+       top: 100px;
+        bottom: 500px;
+        background-color: #6d3df1;
         width: 300px;
         border-radius: 20px;
+           
            }
            .t{
             position: relative;
-            left: 100px;
-           bottom: 70px;
+            bottom: 50px;
+             color:#fff
            }
-           .btn:hover{
-        box-shadow: 2px 2px 1px 1px white;
-    }
-    input:hover{
-        box-shadow: 1px 1px 2px 2px orangered;
-    }
-           .btn{
-            
-            border: none;
-        padding: 13px;
-        margin: 10px ;
+ 
+    .n{
         position: relative;
-        bottom: 80px;
-        background-color: #ff6600;
-        width: 300px;
-        border-radius: 20px;
-           
-           }
+        top:50px;
+       
+    }
+
            
     </style>
 </head>
@@ -132,16 +174,26 @@
     </div>
 
     <div class="login-container">
-        <img src="https://tse1.mm.bing.net/th/id/OIP.-iJhkeOU9jkux_1DkG3UQwHaJ4?pid=ImgDet&w=178&h=238&c=7&dpr=1.5" width=1270px
-        height=500px alt="img">
-        <div class="box">
-            <img src="https://cdn-icons-png.flaticon.com/128/33/33308.png"class="t" alt=""><br>
-           
-            <input type="text"class="input"placeholder="username"><br>
-            <input type="email" class="input"placeholder="email"><br>
+       
+       
+           <div>
+            <h3>WELCOME BACK</h3><br><br>
+            <input type="text"class="input1"placeholder="username"><br><br><br>
             
-            <input type="password" class="input"placeholder="Password"><br>
-            <button class="btn">LOGIN</button>        
+        </div>
+<div>
+    <input type="email" class="input2"placeholder="email"><br><br><br>
+</div>
+            <div>  
+            <input type="password" class="input3"placeholder="Password"><br>
+          
+        </div>
+        
+        <div class="t">
+            <button class="btn">LOGIN</button> 
+        </div>
+        <div class="n">
+            <a href="index.html">forget Pssword?</a>
         </div>
     </div>
     
