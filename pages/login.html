@@ -3,9 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Login Page</title>
+    <link rel="shortcut icon" href="./images/bgimg.png" height="100px" width="800px" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap'); 
+          *{
+             margin: 0;
+             padding: 0; 
+             box-sizing: border-box;
+        }
+        body{
+            background-image: url('https://tse4.mm.bing.net/th/id/OIP.bsYSt_YbVyrQ4MZaSTYwQgHaFj?w=241&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+        }
+        .container
+        {
+             height: 80px;
+             width: 100%;
+             flex-direction: row;
+             display: flex;
+             flex-wrap: wrap;
+             border-radius: none;
+             background: rgba(0, 0, 0, 0.4);
+             padding: 10px;
+        }
+        .head
+        {
+             margin: 50px 0 0 0;
+        } 
+        .img
+        {
+            height: 90px;
+            width: 130px;
+            margin-inline-start:-1px;
+            margin-top: -20px;
+            border: 1px;
+            border-radius: 60%;
+        }
+        .navbar
+        {
+             display: flex;
+             text-align: start; 
+            
+        }
+        #Nav
+        {
+             font-size: 17px;
+             margin:20px 0 0 10px;
+             
+        }
+        a{
+            color:#fff;
+            text-decoration: none;
+        }
+     
+
+
+        .login-container {
+            position: relative; 
+            left:450px;
+            top:30px;
+            background-color: rgba(187, 186, 190, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width:500px;
+    height: 400px;
+    max-width: 400px;
+  
+        }  
+            
+        h3{
+            font-size: 30px;
+        }
+
+        .input1{
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position:absolute;
+        align-items: center;
+        right: 50px;
+        width: 300px;
+        border-radius: 20px;
+           }
+        .input2{
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position:absolute;
+        align-items: center;
+        right: 50px;
+        width: 300px;
+        border-radius: 20px;
+           }
+           
+        .input3{
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position:absolute;
+        align-items: center;
+        right: 50px;
+        width: 300px;
+        border-radius: 20px;
+           }
+           .input1:hover{
+            box-shadow: 2px 2px 1px 1px rgb(232, 32, 32);
+           }
+           .input2:hover{
+            box-shadow: 2px 2px 1px 1px rgb(232, 32, 32);
+           }
+           .input3:hover{
+            box-shadow: 2px 2px 1px 1px rgb(232, 32, 32);
+           }
+           .btn:hover{
+        box-shadow: 2px 2px 1px 1px rgb(45, 42, 42);
+    }
+
+           .btn{
+            
+        border: none;
+        padding: 13px;
+        margin: 10px ;
+        position: relative;
+       top: 100px;
+        bottom: 500px;
+        background-color: #6d3df1;
+        width: 300px;
+        border-radius: 20px;
+           
+           }
+           .t{
+            position: relative;
+            bottom: 50px;
+             color:#fff
+           }
+ 
+    .n{
+        position: relative;
+        top:50px;
+       
+    }
+
+           
+    </style>
 </head>
-<body>
+<body> <div class="conatiner_home">
+    <div class="container">
+     <div class="head" >
+        <img src="../logo.jpeg" alt="Logo" class="img"><span></span>
+     </div>
+        <!-------Navbars-------->
+        <div class="navbar">  
+        <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a></p>
+        <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
+        <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
+        <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+        <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
+        <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+        </div>
+    </div>
+    </div>
+
+    <div class="login-container">
+       
+       
+           <div>
+            <h3>WELCOME BACK</h3><br><br>
+            <input type="text"class="input1"placeholder="username"><br><br><br>
+            
+        </div>
+<div>
+    <input type="email" class="input2"placeholder="email"><br><br><br>
+</div>
+            <div>  
+            <input type="password" class="input3"placeholder="Password"><br>
+          
+        </div>
+        
+        <div class="t">
+            <button class="btn">LOGIN</button> 
+        </div>
+        <div class="n">
+            <a href="index.html">forget Pssword?</a>
+        </div>
+    </div>
     
 </body>
 </html>
