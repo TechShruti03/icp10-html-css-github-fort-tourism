@@ -4,124 +4,216 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Raigad Fort</title>
+   <title>Raigad fort</title>
+   <link rel="stylesheet" href="./../css/style.css">
+   <link rel="stylesheet" href="./../css/footer.css">
    <style>
-      .fullpage {
-         padding: 20px;
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
       }
 
-      .heading {
-         display: block;
-         text-align: center;
-         color: #ff6600;
+      .container {
+         height: 160px;
+         width: 100%;
+         flex-direction: row;
+         display: flex;
+         flex-wrap: wrap;
+         border-radius: none;
+         background: rgba(0, 0, 0, 0.4);
+         padding: 10px;
       }
 
-      .numbers {
-         margin: 60px 0px;
+      .item {
+         background-color: #fad8a4;
+         height: 450px;
+         width: 400px;
+         margin: 10px;
+         font-size: 50px;
+         padding: 10px;
+         border-radius: 10px;
+         border: solid 1px rgb(245, 170, 105);
+      }
+
+      .item:hover {
+         background-color: hwb(43 40% 7%);
+         transition: 0.5s;
+      }
+
+      .container2 {
+         height: 490px;
+         width: 1300px;
+         background-color: rgb(243, 246, 248);
+         flex-direction: row;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         border-radius: 10px;
+         padding: 10px;
+      }
+
+      .head {
+         margin: 50px 0 0 0;
+         color: #0d0d0d;
       }
 
       .img {
-         height: 450px;
-         display: block;
-         margin: 0px auto;
-         border: black 1px solid;
+         height: 90px;
+         width: 130px;
+         margin-inline-start: -1px;
+         margin-top: -20px;
+         border: 1px;
+         border-radius: 60%;
+      }
+
+      .navbar {
+         display: flex;
+         text-align: start;
+      }
+
+      #Nav {
+         font-size: 17px;
+         margin: 70px 0 0 10px;
+      }
+
+      a {
+         color: #fff;
+         text-decoration: none;
+      }
+
+      a:hover {
+         color: #ff6600;
+      }
+
+      .heading {
+         text-align: center;
+         color: hsl(24, 100%, 44%);
+         font-style: bold;
+         margin: 10px 0px;
+         font-size: 50px;
       }
    </style>
-
 </head>
 
 <body>
-   <div class="fullpage">
-      <h1 class="heading">Raigad Fort: A Symbol of Maratha Glory</h1>
-      <h1>
-         <ol type="1" class="numbers">
-            <li> Entering The Fort</li>
-      </h1>
-      </ol>
-      <div class="contianer">
-         <img src="./../img/raigad_img1.jpg" class="img">
+   <div class="container_torna_fort">
+      <div class="container">
+         <div class="head">
+            <img src="./../img/logo.jpeg" alt="Logo" class="img"><span></span>
+         </div>
+         <!-------Navbars-------->
+         <div class="navbar">
+            <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a>
+            </p>
+            <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
+            <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
+            <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+            <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
+            <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+         </div>
       </div>
-      <h3>
-         <p class="description">The Chit Darwaja is located at the foothills of the fort which is near the village of
-            Pachad. From here the visitors start on their foot journey to the Khoob Ladha Buruj. And then they reach the
-            main entrance to the fort, the Maha Darwaja.
+      <div class="whole_page">
+         <h1 class="heading">Raigad Fort: A Symbol of Maratha Glory</h1>
+         <p class="des">The Raigad Fort is an aesthetically and majestically appealing hill fort in the district of
+            Raigad,
+            Maharashtra. It is known as the “Gibraltar of the East” by the Europeans. The Raigad Fort height is 820
+            meters
+            above sea level of the Sahyadri mountain range. Comprising of 1737 steps, the fort can be accessed by a
+            single
+            pathway.
 
-            The massive entrance to the fort reflects the glory of the Marathas. There are ropeway facilities that you
-            can
-            use to directly go to the top of the fort if you do not want to climb 1737 steps. It will take you to the
-            top
-            of the fort directly near Mena Darwaja. That will lead you to the Rani Vasa. Towards the right of the Mena
-            Darwaja, there is the office complex of the king’s secretaries. You can also visit there.</p>
-      </h3>
+            Its strategic build speaks of the clever architecture. The inside Raigad Fort is surrounded by deep green
+            valleys and has several gateways that enthrall its visitors such as Nagarkhana Darwaja, Palkhi Darwaja, Mena
+            Darwaja, and the majestic Maha Darwaja. However, the main entrance to the imperial structure is Maha
+            Darwaja.
+            In today’s time, the Raigad fort serves as a living reminder of the valor and glory of the Marathas.
+         </p>
+         <table class="image">
+            <tr>
+               <td><img src="./../img/raigad_img1.jpg" class="fort"></td>
+               <td><img src="./../img/raigad_img2.jpg" class="fort"></td>
+               <td><img src="./../img/raigad_img3.jpg" class="fort"></td>
+            </tr>
+         </table>
+         <table class="image">
+            <tr>
+               <td><img src="./../img/raigad_img4.jpg" class="fort"></td>
+               <td><img src="./../img/raigad.img5.jpg" class="fort"></td>
+               <td><img src="./../img/raigad.img6.jpg" class="fort"></td>
+            </tr>
+         </table>
+         <br>
+         <br>
+         <h1>Historical Raigad Fort Information</h1>
+         <br>
+         <br>
+         <p class="des">Back in the year 1656, Chatrapati Shivaji Maharaj, the distinguished Maratha ruler, seized the
+            fort of Rairi from Ruler of Jawali, Rajchandraji More, and built his capital city. He renovated the fort and
+            renamed it “Raigad”.
 
-      <h1>
-         <ol type="1" start="2" class="numbers">
-            <li> Palkhi Darwaja</li>
-      </h1>
-      </ol>
-      <div class="contianer">
-         <img src="./../img/raigad_img2.jpg" class="img">
+            The villages of Pachad and Raigadwadi were located at the base of the fort and played a very crucial role in
+            the defense of the royal house. It is said that during the rule of the Marathas, a cavalry of ten thousand
+            men was always kept on standby in Pachad. Apart from its strategic location, the Raigad Fort was heavily
+            fortified to keep swarming enemies at bay.</p>
+         <p class="des">Mughal invaders defeated the Marathas in 1689 and took control over the fort. It was later
+            renamed “Islamgad” by Aurangzeb. In the 1700s, the British East India Company rise in India. It saw the fort
+            as a stronghold and later, carried out an armed expedition against the same. The British bombarded and
+            destroyed the legacy of the Marathas in 1818 and took control over the remains.</p>
+         <a href="./booking.html"><button class="book">Book a Tour</button></a>
       </div>
-      <h3>
-         <p class="description">Palkhi Darwaja is just in front of the queen chambers. It served as a special doorway
-            for Shivaji Maharaj’s convoy. There are three dark chambers to the right of this doorway that are believed
-            to be the granaries of the fort by historians.</p>
-      </h3>
+      <Footer>
+         <div class="footer_sub">
+            <div class="footer_1">
+               <img src="./../img/rajmudra.png" alt="img" id="footer_img"><span id="footer_name">CHHATRAPATI SHIVAJI
+                  MAHARAJ</span>
+               <p id="footer_text">Shivaji Maharaj, a visionary leader, founded the Maratha Empire through military
+                  innovations, wisdom quotes, and respect for women's rights, fostering harmony and inspiring
+                  generations with his legacy of resistance and governance.</p>
+               <a href="https://www.facebook.com/WeAreTeamIndia/" target="_blank">
+                  <img src="./../img/icons/facebook_icon.png" alt="img" id="footer_add"></a>
+               <a href="https://www.instagram.com/WeAreTeamIndia/" target="_blank">
+                  <img src="./../img/icons/instagram_icon.png" alt="img" id="footer_add"></a>
+               <a href="https://www.twitter.com/WeAreTeamIndia/" target="_blank">
+                  <img src="./../img/icons/twitter_icon.png" alt="img" id="footer_add"></a>
+               <a href="https://www.linkdin.com/WeAreTeamIndia/" target="_blank">
+                  <img src="./../img/icons/linkedin_icon.png" alt="img" id="footer_add"></a>
+               <a href="https://www.whatsapp.com/WeAreTeamIndia/" target="_blank">
+                  <img src="./../img/icons/whatsapp_icon.png" alt="img" id="footer_add"></a>
+            </div>
+            <div class="footer_1">
+               <span id="link">Quick links</span>
+               <a href="./index.html">
+                  <p id="link_1">Home</p>
+               </a>
+               <a href="./pages/about.html" target="_blank">
+                  <p id="link_2">About</p>
+               </a>
+               <a href="./pages/gallery.html" target="_blank">
+                  <p id="link_3">Gallery</p>
+               </a>
+               <a href="./pages/history.html" target="_blank">
+                  <p id="link_4">Histroy</p>
+               </a>
+               <a href="./pages/login.html" target="_blank">
+                  <p id="link_5">Login Office</p>
+               </a>
+            </div>
+            <div class="footer_1">
+               <span id="link">Contact Us</span>
+               <a href="./../pages/location2.html" target="_blank">
+                  <img src="./../img/icons/location.png" alt="" id="location"></a>
+               <p id="footer_text1"> Fort Tourism, Mahalunge, Pune, Maharashtra 411045</p>
+               <a href="tel:+91-1239870990">
+                  <img src="./../img/icons/phone_icon.png" alt="" id="location1"></a>
+               <p id="footer_text2">+91-1239870990</p>
+               <a href="mailto:chhatraptishivajimaharaj@gmail.com">
+                  <img src="./../img/icons/gmail_icon.png" alt="" id="location2"></a>
+               <p id="footer_text3">chhatraptishivajimaharaj@gmail.com</p>
+            </div>
 
-      <h1>
-         <ol type="1" start="3" class="numbers">
-            <li> Raj Bhavan</li>
-      </h1>
-      </ol>
-      <div class="contianer">
-         <img src="./../img/raigad_img3.jpg" class="img">
-      </div>
-      <h3>
-         <p class="description">Raj Bhavan is the main palace of Shivaji. It was made of wood and now only the bases of
-            the pillars remain. It was the home to the royal Marathas. Along with Shivaji Chhatrapati’s overwhelming
-            generosity, it has also witnessed his victories, anger, joys, and sorrows.</p>
-      </h3>
-      <h1>
-         <ol type="1" start="4" class="numbers">
-            <li> Raj Sabha</li>
-      </h1>
-      </ol>
-      <div class="contianer">
-         <img src="./../img/raigad_img4.jpg" class="img">
-      </div>
-      <h3>
-         <p class="description">As per the directions of the Raigad Fort map, the Raj Bhavan leads to a massive,
-            sprawling lawn which is referred to as “The Raj Sabha”. From the splendor of battle wins to the coronation
-            of Shiv Chhatrapati, this open ground has witnessed various important events of the Maratha rule. This is
-            also where Shivaji Maharaj broke the shackles of slavery and established Hindavi Swarajya. His throne was
-            studded with precious jewels and was a magnificent masterpiece..</p>
-      </h3>
-      <h1>
-         <ol type="1" start="5" class="numbers">
-            <li> The Royal Bath</li>
-      </h1>
-      </ol>
-      <div class="contianer">
-         <img src="./../img/raigad.img5.jpg" class="img">
-      </div>
-      <h3>
-         <p class="description">The impressive drainage system of the Royal Bath speaks for its architectural
-            excellence. Surprisingly, it leads to an underground cellar that was used for secretive activities such as
-            worshipping Bhavani Mata, secret dialogues, storing loot from wars, and many more.</p>
-      </h3>
-      <h1>
-         <ol type="1" start="6" class="numbers">
-            <li> The Watch Towers</li>
-      </h1>
-      </ol>
-      <div class="contianer">
-         <img src="./../img/raigad.img6.jpg" class="img">
-      </div>
-      <h3>
-         <p class="description">The fort is also home to the remains of three watchtowers. It once guarded this enormous
-            structure. Among the three towers, two towers still remain, but the third one got destroyed in the British
-            attack.</p>
-      </h3>
+               
+      </Footer>
 
    </div>
 </body>

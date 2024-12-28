@@ -1,0 +1,46 @@
+.des{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+ justify-content: space-evenly;
+}
+
+.whole_page{
+    padding: 20px;
+    background-image: url(./../img/background1.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+   
+}
+.fort{
+    margin: 10px;
+    display:block;
+    height: 300px;
+    width: 450px;;
+    border: black 1px solid;
+    
+}
+
+.fort:hover{
+    box-shadow: -2px 3px 10px 8px darkgreen;
+}
+.book{
+    border-radius: 20px;
+    font-size: 35px;
+    background-color:#ff8e3c;
+    border: 2px solid #e68a00;
+    color: #eff0f3;
+   margin: 30px auto;
+   padding:5px;
+   display: block;
+   align-items: center;
+   
+}
+.book:hover{
+    background-color:#e68a00;
+}
