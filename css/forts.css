@@ -12,8 +12,8 @@
     display: flex;
     border-radius: none;
     align-items: center;
-    background: rgba(0, 0, 0, 0.4);
-    position: fixed;
+    background-color: rgb(88, 88, 88);
+    position: sticky;
     padding-top: -100px;
     z-index: 1000;
 }
@@ -470,114 +470,6 @@ caption::after {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
-@media screen and (max-width: 600px) {
-    .container-navbar {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: #333;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transform: translateX(-100%);
-        transition: transform 0.3s ease;
-    }
-
-    .navbar {
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .title h1 {
-        font-size: 8vh;
-    }
-
-    .container-information {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .rowitems {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .fort-info, .fort-image {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .container-navbar {
-        flex-direction: column;
-    }
-
-    .title h1 {
-        font-size: 6vh;
-    }
-
-    .event-button {
-        width: 100%;
-        font-size: 18px;
-    }
-
-    .container-box {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .rowitems {
-        grid-template-columns: 1fr;
-    }
-
-    .fort img {
-        height: 120px;
-    }
-
-    table {
-        font-size: 14px;
-    }
-
-    th, td {
-        padding: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .title h1 {
-        font-size: 5vh;
-    }
-
-    .container-box {
-        width: 100%;
-        padding: 15px;
-    }
-
-    .event-button {
-        width: 100%;
-        font-size: 16px;
-    }
-
-    .fort img {
-        height: 100px;
-    }
-
-    table {
-        font-size: 12px;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-
-    .fort {
-        flex: 1 1 100%;
-    }
-}
 .footer_sub
 {
    display: flex;
@@ -743,8 +635,6 @@ caption::after {
    margin-left: 95%;
    cursor: pointer;
    }
-    
-   
     @media screen and (min-width:760px){
         .images{
     display: flex;
