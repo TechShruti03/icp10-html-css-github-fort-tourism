@@ -8,411 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+AR:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-        *{
-             margin: 0;
-             padding: 0; 
-             box-sizing: border-box;
-        }
-        .container
-        {
-             height: 160px;
-             width: 100%;
-             flex-direction: row;
-             display: flex;
-             flex-wrap: wrap;
-             border-radius: none;
-             background: rgba(0, 0, 0, 0.4);
-             padding: 10px;
-        }
-        .head
-        {
-             margin: 50px 0 0 0;
-        } 
-        .img
-        {
-            height: 90px;
-            width: 130px;
-            margin-inline-start:-1px;
-            margin-top: -20px;
-            border: 1px;
-            border-radius: 60%;
-        }
-        .navbar
-        {
-             display: flex;
-             text-align: start; 
-        }
-        #Nav
-        {
-             font-size: 17px;
-             margin:70px 0 0 10px;
-        }
-        a{
-            color:#fff;
-            text-decoration: none;
-        }
-        a:hover{
-            color:#ff6600;
-        }
-        .conatiner_home
-        {
-            height: 800px;
-            width: 100%;
-            background-image: url(./img/home_images/sindhudurg_fort_bg.jpg);
-            background-size: cover;
-        }
-        #para_1{
-            margin: 90px 0 0 140px;
-            font-size: 75px;
-            color: #ff3300;
-            font-family: "Dancing Script", cursive; 
-        }
-        #para_2{
-            font-size: 30px;
-            margin: 6px;
-            color: black;
-            margin-left: 150px;
-            font-family: "Dancing Script", cursive;
-        }
-        #writer{
-            margin-left: 550px;
-            font-size: 25px;
-            color:black;
-        }
-        .head{
-             margin: 50px 0 0 0;
-        } 
-        #heading{
-            font-size: 50px;
-            color: hsl(16, 100%, 40%);
-            padding: 400px;
-        }
-        .container_3
-        {
-            display: flex; 
-        }
-        .box1
-        {
-           margin-left: 20px;
-           height: 350px;
-           width: 320px;
-           box-shadow: 0 0 20px 2px rgb(188, 184, 184);
-           border-radius: 10px; 
-           background-color:wheat;    
-        }
-        #img1
-        {
-            border: 5px solid #f0af97;
-            box-shadow: 1px 1px 1px 1px rgb(198, 170, 160);
-            margin: 90px;
-            height: 500px;
-            width: 500px;
-        }
-        #img1:hover
-        {
-            border: 7px solid #ef7d54;
-
-        }
-        #info
-        {
-            margin: 100px 0 0 10px;
-            font-size: 24px;
-            color:black;
-        }
-        #info1
-        {
-            margin:35px 0 0 10px;
-            font-size: 23px;
-            color:black;
-        }
-        .video
-        {
-            margin-left: 70px;
-            height: 350px;
-            width: 620px;
-            margin: 60px 0 0 90px;
-            box-shadow:1px 1px 1px 4px #ff6600;
-           box-shadow: 0 0 20px 2px rgb(188, 184, 184);
-           border-radius: 10px; 
-           cursor: pointer;    
-        }
-        .video:hover
-        {
-            box-shadow:5px 5px 10px  hwb(30 25% 74%);
-        }
-        #headvis
-        {
-            color: hsl(16, 100%, 40%);
-            text-align: center;
-            font-size: 40px;
-            cursor: pointer;
-       }
-       #main
-       {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            flex-direction: row;
-            margin: 60px;
-            background-color: hsl(195, 67%, 86%);
-        }
-        .vision
-        {
-        font-size: 20px;
-        color:rgb(12, 12, 12);
-        margin-top: 30px;
-        margin: 10px;
-        height: 300px;
-        width: 350px;
-        box-shadow: 0 0 10px 2px rgb(188, 184, 184);
-        border-radius: 20px; 
-        background-color:wheat;
-        cursor: pointer;
-        }
-        .vision:hover
-        {
-            background-color: hwb(43 40% 7%);
-        }
-        #user
-        {
-          height: 100px;
-          width: 200px;
-          margin-top: 6px;
-          margin-left: 65px;
-         }
-         .para_4
-         {
-            text-align: center;
-            font-size: 16px;
-            margin-top: 7px;
-            color: black;
-        }
-        .heading
-        {
-            margin: 20px;
-            font-weight: 900;
-            font-size: 25px;
-            color: maroon;   
-        }
-        #Btn1
-        {
-            font-size: 20px;
-            width: 150px;
-            color:wheat;
-            background-color: #f56633;
-            margin: 5px 0 27px 700px;
-            padding-right: 10px;
-            border-radius: 10px;
-            border-style: none;
-            cursor: pointer;
-        }
-        #Btn1:hover
-        {
-            background-color: #ff6600;
-            box-shadow: 1px 2px 2px 3px black;
-            transition: 1s;
-        }
-        .footer_sub
-        {
-           display: flex;
-           flex-wrap: wrap;
-            height: 350px;
-            width: 100%;
-            background-color: #232946;
-         }
-         .footer_1
-         {
-             height: 300px;
-             width: 440px;
-             flex-direction: row;
-             display: flex;
-             flex-wrap: wrap;
-             margin: 20px;
-            
-        }
-        #footer_img
-        {
-                height: 90px;
-                width: 100px;
-                cursor: pointer;
-         }
-         #footer_name
-         {
-                color:white;
-                font-size: 21px;
-                margin-inline-start: -20px;
-                margin-top: 40px;
-         }
-         #footer_text
-         {
-                color: #fff;
-                font-size: 16px;
-                margin-left: 20px;
-                margin-inline-start: 40px;
-                padding: 10px;
-                margin-top: -40px;
-            }
-            #footer_add
-            {
-                height: 40px;
-                width: 40px;
-                margin-left: 20px;
-                margin-inline-start: 40px;
-                background-color: white;
-                border-radius: 50%;
-                border: 3px solid white;
-            }
-            #link
-            {
-                font-size: 30px;
-                color: white;
-                margin-left: 130px;
-                margin-top: 30px;
-            }
-            #link_1{
-                margin-top: 80px;
-                font-size: 20px;
-                color: white;
-                margin-inline-start: -100px;
-            }
-            #link_2{
-                margin-top: 100px;
-                font-size: 20px;
-                color: white;
-                margin-inline-start: -110px;
-                padding: 10px;
-            }
-            #link_3{
-                margin-top: 130px;
-                font-size: 20px;
-                color: white;
-                margin-inline-start: -110px;
-                padding: 10px;
-            }
-            #link_4{
-                margin-top: 160px;
-                font-size: 20px;
-                color: white;
-                margin-inline-start: -110px;
-                padding: 10px;
-            }
-            #link_5{
-                margin-top: 190px;
-                font-size: 20px;
-                color: white;
-                margin-inline-start: -110px;
-                padding: 10px;
-            }
-            #location
-            {
-            height: 40px;
-            width: 40px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 50%;
-            margin-top: 100px;
-            font-size: 20px;
-            margin-inline-start: -230px;
-            padding: 10px;
-            margin-top: 90px;
-            }
-            #footer_text1
-            {
-                color: #fff;
-                font-size: 18px;
-                margin-left: 20px;
-                margin-inline-start: 80px;
-                padding: 10px;
-                margin-top: -110px;
-            }
-            #footer_text2
-            {
-                color: #fff;
-                font-size: 18px;
-                margin-left: 20px;
-                margin-inline-start: -40px;
-                padding: 30px;
-                margin-top: -90px;
-            }
-            #footer_text3
-            {
-                color: #fff;
-                font-size: 20px;
-                margin-left: 20px;
-                margin-inline-start: -40px;
-                padding: 30px;
-                margin-top: -30px;
-            } 
-            #location1
-            {
-            height: 40px;
-            width: 40px;
-            margin: 29px;
-            background-color: white;
-            border-radius: 50%;
-            margin-top: -70px;
-            font-size: 20px;
-            margin-inline-start: 40px;
-            padding: 10px;
-            }
-            #location2
-            {
-            height: 40px;
-            width: 40px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 50%;
-            margin-top: -10px;
-            font-size: 20px;
-            margin-inline-start: -200px;
-            padding: 10px;
-            }
-            .stick
-            {
-           height: 50px;
-           position: sticky;
-           top:100px;
-           margin-left: 95%;
-           cursor: pointer;
-           }
-            
-           
-            @media screen and (min-width:760px){
-                .images{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: space-evenly;
-            height: 400px;
-                       }
-              }
-    </style>
+    <link rel="stylesheet" href="./css/index.css">
 
 </head>
 <body>
-    <a href="tel:+91-1239870990" target="_blank"><img src="./img/icons/phone_icon.png" class="stick"/></a>
+    <a href="tel:+91-1239870990" target="_blank"><img src="./img/icons/phone_icon.png" class="stick"/></a>  
     <div class="conatiner_home">
     <div class="container">
      <div class="head" >
-        <img src="./img/logo.jpeg" alt="Logo" class="img"><span></span>
+        <img src="./../icp10-html-css-github-fort-tourism/img/logo.jpeg" alt="Logo" class="img"><span></span>
      </div>
         <!-------Navbar-------->
-        <div class="navbar">  
+        <div class="navbar">
         <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a></p>
-        <p id="Nav"><a href="/pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
-        <p id="Nav"><a href="/pages/history.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
-        <p id="Nav"><a href="/pages/gallary.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
-        <p id="Nav"><a href="/pages/forts.html">&nbsp;&nbsp;&nbsp;&nbsp;FORTS</a></p>
-        <p id="Nav"><a href="/pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
-        <p id="Nav"><a href="/pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+        <p id="Nav"><a href="./pages/about.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
+        <p id="Nav"><a href="./pages/history.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
+        <p id="Nav"><a href="./pages/gallary.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+        <p id="Nav"><a href="./pages/forts.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;FORTS</a></p>
+        <p id="Nav"><a href="./pages/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
+        <p id="Nav"><a href="./pages/login.html" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+
         </div>
     </div>
     <div class="container_2">
         <p id="para_1">Explore The History.....</p>
-        <p id="para_2">"Even if there were a sword in the hands of<br/> everyone, it is willpower that establishes a government."</p>
-        <p id="para_2">"Even from enemies, a man can learn.<br/>The better a man becomes, the fewer his enemies."</p>
-        <p id="writer">----Quotes by Chhatrapati Shivaji Maharaj</p>
+        <p id="para_2">"The &nbsp;History&nbsp; Reveals &nbsp;itself &nbsp;to<br/> those&nbsp; who &nbsp;travel &nbsp;on&nbsp; foot."</p>
+        <p id="para_2">"History,&nbsp;&nbsp;it&nbsp; has&nbsp; been &nbsp;said,<br/>is&nbsp; what &nbsp;the &nbsp;present &nbsp; chooses &nbsp;to &nbsp;remember &nbsp;about &nbsp;the &nbsp;past."</p>
+        <p id="writer">----Quotes by Eric Foner</p>
     </div>
     </div>
     <div class="head">
@@ -502,13 +124,13 @@
             <span id="link">Quick links</span>
             <a href="./index.html">
             <p id="link_1">Home</p></a>
-            <a href="./pages/about.html" target="_blank">
+            <a href="./../icp10-html-css-github-fort-tourism/pages/about.html" target="_blank">
             <p id="link_2">About</p></a>
-            <a href="./pages/gallery.html" target="_blank">
+            <a href="./../icp10-html-css-github-fort-tourism/pages/gallary.html" target="_blank">
             <p id="link_3">Gallery</p></a>
-            <a href="./pages/history.html" target="_blank">
+            <a href="./../icp10-html-css-github-fort-tourism/pages/history.html" target="_blank">
             <p id="link_4">Histroy</p></a>
-            <a href="./pages/login.html" target="_blank">
+            <a href="./../icp10-html-css-github-fort-tourism/pages/login.html" target="_blank">
             <p id="link_5">Login Office</p></a> 
         </div>
         <div class="footer_1">

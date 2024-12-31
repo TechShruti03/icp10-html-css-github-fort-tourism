@@ -1,0 +1,299 @@
+.xyz{
+    font-family:Montserrat;
+
+}
+.container
+{
+     height: 160px;
+     width: 100%;
+     flex-direction: row;
+     display: flex;
+     flex-wrap: wrap;
+     border-radius: none;
+  
+     background: rgba(20, 6, 1, 0.551);
+     padding: 10px;
+     margin-bottom: 20px;
+   
+    
+}
+.head
+{
+     margin: 50px 0px 0px 0px;
+} 
+.img
+{
+    height: 90px;
+    width: 130px;
+    margin-inline-start:-1px;
+    margin-top: -20px;
+   
+    border: 1px;
+    border-radius: 60%;
+}
+.navbar
+{
+     display: flex;
+     text-align: start; 
+}
+#Nav
+{
+     font-size: 17px;
+     margin:70px 0 0 10px;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#ff6600;
+}
+h1{
+    color:#ff6600;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover{
+    color:#a85720;}
+.btn{
+    display:inline;
+    position: relative;
+    color:  #302626;
+
+    
+}
+.btn1{
+    justify-content: space-evenly;
+    padding: 40px;
+    color: white;
+} 
+.btn1:hover{
+    background-color: hwb(43 40% 7%);;
+    transition: 0.5s;
+    color: antiquewhite;
+    
+    font-size: 10px;
+    box-shadow: 3px 3px 3px 3px ;
+
+} 
+.container-name{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=70ab34f742&attid=0.1&permmsgid=msg-f:1819788320854218335&th=19412fd60eeb965f&view=fimg&fur=ip&permmsgid=msg-f:1819788320854218335&sz=s0-l75-ft&attbid=ANGjdJ-oH64cSvzsv_laq2QS0bitHm2y0vDMjaeRRImJBbIe_9hnJTNEPjmubbMbHpO94yUxMYhTulII1CmXbzR-1SADJRQOz5YMhl1FLOTvjVz6meHe7dQviL-_AWY&disp=emb&realattid=ii_19412fd16acd031233e1&zw);
+    background-size: cover;
+}
+.item {
+     background-color: #fad8a4;
+     height: 450px;
+     width: 400px;
+     margin: 10px;
+     font-size: 50px;
+     padding: 10px;
+     border-radius: 10px;
+     border: solid 1px rgb(245, 170, 105);
+}
+.item:hover{
+    background-color: hwb(43 40% 7%);
+    transition: 0.5s;
+}
+.container2{
+    height: 490px;
+    width: 1300;
+    background-color:rgb(243, 246, 248);
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=70ab34f742&attid=0.1&permmsgid=msg-f:1819788320854218335&th=19412fd60eeb965f&view=fimg&fur=ip&permmsgid=msg-f:1819788320854218335&sz=s0-l75-ft&attbid=ANGjdJ-oH64cSvzsv_laq2QS0bitHm2y0vDMjaeRRImJBbIe_9hnJTNEPjmubbMbHpO94yUxMYhTulII1CmXbzR-1SADJRQOz5YMhl1FLOTvjVz6meHe7dQviL-_AWY&disp=emb&realattid=ii_19412fd16acd031233e1&zw);
+    background-size: cover;
+    
+}
+#Btn2
+{
+    font-size: 30px;
+    width: 150px;
+    color:wheat;
+    background-color: #f56633;
+    margin: 5px 0 27px 700px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    
+    
+}
+#Btn2:hover
+{
+    background-color: #ff6600;
+    box-shadow: 1px 2px 2px 3px black;
+    transition: 1s;
+} 
+#footer_text
+ {
+        color: #fff;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-inline-start: 40px;
+        padding: 10px;
+        margin-top: -40px;
+ }
+
+ .footer_sub
+{
+   display: flex;
+   flex-wrap: wrap;
+    height: 350px;
+    width: 100%;
+    background-color: #232946;
+    
+ }
+ .footer_1
+ {
+     height: 300px;
+     width: 440px;
+     flex-direction: row;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 20px;
+     
+   
+    
+}
+#footer_img
+{
+        height: 90px;
+        width: 100px;
+        cursor: pointer;
+ }
+ #footer_name
+ {
+        color:white;
+        font-size: 21px;
+        margin-inline-start: -20px;
+        margin-top: 40px;
+ } 
+
+ #footer_add
+    {
+        height: 40px;
+        width: 40px;
+        margin-left: 20px;
+        margin-inline-start: 40px;
+        background-color: white;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+ 
+    #link
+    {
+        font-size: 30px;
+        color: white;
+        margin-left: 130px;
+        margin-top: 30px;
+        
+    }
+    #link_1{
+        margin-top: 80px;
+        font-size: 20px;
+        color: white;
+        margin-inline-start: -100px;
+    }
+    #link_2{
+        margin-top: 100px;
+        font-size: 20px;
+        color: white;
+        margin-inline-start: -110px;
+        padding: 10px;
+    }
+    #link_3{
+        margin-top: 130px;
+        font-size: 20px;
+        color: white;
+        margin-inline-start: -110px;
+        padding: 10px;
+    }
+    #link_4{
+        margin-top: 160px;
+        font-size: 20px;
+        color: white;
+        margin-inline-start: -110px;
+        padding: 10px;
+    }
+    #link_5{
+        margin-top: 190px;
+        font-size: 20px;
+        color: white;
+        margin-inline-start: -110px;
+        padding: 10px;
+    }
+
+    #location
+    {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-inline-start: -230px;
+    padding: 10px;
+    margin-top: 90px;
+    }
+    #footer_text1
+    {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-inline-start: 80px;
+        padding: 10px;
+        margin-top: -110px;
+    }
+    #footer_text2
+    {
+        color: #fff;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-inline-start: -40px;
+        padding: 30px;
+        margin-top: -90px;
+    }
+    #footer_text3
+    {
+        color: #fff;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-inline-start: -40px;
+        padding: 30px;
+        margin-top: -30px;
+    } 
+    #location1
+    {
+    height: 40px;
+    width: 40px;
+    margin: 29px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -70px;
+    font-size: 20px;
+    margin-inline-start: 40px;
+    padding: 10px;
+    }
+    #location2
+    {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -10px;
+    font-size: 20px;
+    margin-inline-start: -200px;
+    padding: 10px;
+    }

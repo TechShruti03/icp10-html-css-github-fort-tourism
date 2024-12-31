@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+
     <link rel="shortcut icon" href="./images/bgimg.png" height="100px" width="800px" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,20 +15,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 </style>
-<style>
-        body{
-            background-image: url(https://www.bing.com/images/search?view=detailV2&ccid=U7czgciZ&id=945EA8681B34469B76);
-            background-size: cover;
-            background-position:center ;
 
-        }
-        }
-        #heading{
-            font-size: 35px;
-            color: orangered;
-            padding: 400px;
-        }
-        #img1{
+<style>
+    
+    #img1{
             border: 5px solid rgb(243, 71, 8);
             box-shadow: 1px 1px 1px 1px rgb(198, 170, 160);
             margin: 90px;
@@ -37,11 +28,7 @@
         .container_3{
             display: flex; 
         }
-        #heading{
-            font-size: 35px;
-            color: orangered;
-            padding: 400px;
-        }
+    
         #Btn{
             font-family: 20px;
             color: wheat;
@@ -50,9 +37,9 @@
             padding: 10px;
             border-radius: 10px;
             border-style: none;
-        position: absolute;
+        position: static;
             right: 400px;
-            top: 700px;
+            top: 800px;
         
         }
         #Btn:hover{
@@ -69,12 +56,7 @@ cursor: pointer;
             font-family: mali;
             
         }
-        
-        *{
-             margin: 0;
-             padding: 0; 
-             box-sizing: border-box;
-        }
+    
         .container
         {
              height: 160px;
@@ -83,7 +65,8 @@ cursor: pointer;
              display: flex;
              flex-wrap: wrap;
              border-radius: none;
-             background: rgba(0, 0, 0, 0.4);
+             background-color: rgb(88, 88, 88);
+            position: sticky;
              padding: 10px;
         }
         .head
@@ -92,12 +75,12 @@ cursor: pointer;
              
              
         } 
-        .m{
+        .cont{
         color: orange;
         font-size: 35px;
 
         }
-        .m:hover{ color: black;
+        .cont:hover{ color: black;
         font-size: 35px;
         }
         .img
@@ -127,9 +110,8 @@ cursor: pointer;
         a:hover{
             color:#ff6600;
         }
-    
-    </style>
 
+</style>
 </head>
 <body>
     <div class="conatiner_home">
@@ -139,12 +121,12 @@ cursor: pointer;
      </div>
         <!-------Navbar-------->
         <div class="navbar">  
-        <p id="Nav"><a href="./index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a></p>
-        <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
-        <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
-        <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
-        <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
-        <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
+        <p id="Nav"><a href="index.html"><b style="color:hsl(24, 100%, 44%)">&nbsp;&nbsp;&nbsp;&nbsp;HOME</b></a></p>
+        <p id="Nav"><a href="about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
+        <p id="Nav"><a href="history.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
+        <p id="Nav"><a href="gallary.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+        <p id="Nav"><a href="contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
+        <p id="Nav"><a href="login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
         </div>
     </div>
     </div>
@@ -153,7 +135,7 @@ cursor: pointer;
 </html>
         <br>
         <div class="head">
-           <center> <h1 class="m">
+           <center> <h1 class="cont">
           <u>  ABOUT US </u>
            </h1> </center>
            </div>
