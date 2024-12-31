@@ -44,3 +44,24 @@
 .book:hover{
     background-color:#e68a00;
 }
+.video_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.video{
+    border-radius: 20px;
+}
+.video:hover{
+    box-shadow: 10px 10px 5px 1px #a6a6a6;
+}
+
+@media screen and (min-width:760px){
+    .images{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-evenly;
+height: 400px;
+           }
+  }
