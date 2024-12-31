@@ -1,0 +1,69 @@
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#ff6600;
+}
+.heading
+{
+    font-size: 50px;
+    color:hsl(24, 100%, 44%);
+    font-style: bold;  
+}
+.container_torna_fort{
+    height: 100%;
+    width: 100%;
+    background-image: url(./../img/background1.jpg);
+    background-size: cover;
+}
+.item {
+    background-color: #fad8a4;
+    height: 450px;
+    width: 400px;
+    margin: 10px;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(245, 170, 105);
+}
+.item:hover{
+   background-color: hwb(43 40% 7%);
+   transition: 0.5s;
+}
+.container2{
+   height: 490px;
+   width: 1300px;
+   background-color:rgb(243, 246, 248);
+   flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   border-radius: 10px;
+   padding: 10px;
+}
+.head
+{
+    margin: 50px 0 0 0;
+} 
+.img
+{
+   height: 90px;
+   width: 130px;
+   margin-inline-start:-1px;
+   margin-top: -20px;
+   border: 1px;
+   border-radius: 60%;
+}
+.video-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    height: 300px;
+    width: 500px;
+}
+.video-container:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(255, 0, 0, 0.8);
+}
