@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alex+Brush&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Estonia&family=Gwendolyn:wght@400;700&family=Jaini+Purva&family=Laila:wght@300;400;500;600;700&family=Merienda:wght@300..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Twinkle+Star&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    background-image: url("./../img/backgound-img.jpg");
+
+}
+
+.container-navbar {
+    height: 100px;
+    background-color: rgb(70, 70, 70);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.brand-logo {
+    height: 70px;
+    padding: 6px;
+    border-radius: 60%;
+    margin: 7px;
+}
+
+.navbar-content {
+    margin: 0px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-content:hover {
+    color: rgb(255, 138, 4);
+}
+
+.home-navbar {
+    margin-left: 40px;
+}
+
+.search {
+    padding: 8px;
+    border-radius: 20px;
+    width: 130px;
+    position: absolute;
+    right: 20px;
+    border: 2px solid rgb(153, 153, 153);
+}
+
+.heading {
+    font-size: 48px;
+    color: hsl(24, 100%, 45%);
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-family: "Merienda";
+}
+
+.info-about-shivneri {
+    font-size: 18px;
+    margin: 10px 25px;
+}
+
+.images-of-shivneri {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img {
+    height: 250px;
+    margin: 5px;
+    border: 15px solid #fcf1e0;
+    cursor: pointer;
+}
+
+.img:hover {
+    box-shadow: 0px 0px 5px 3px #c7ac86;
+}
+
+.container-of-historical-significance {
+    display: flex;
+    margin: 10px 20px;
+}
+
+.heading-of-historical-significance {
+    font-size: 30px;
+    margin: 10px 25px;
+    color: hsl(24, 97%, 42%);
+}
+
+.img2 {
+    height: 200px;
+    margin: 5px;
+    border: 15px solid #fcf6ee;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.img2:hover {
+    box-shadow: 0px 0px 5px 3px #c7ac86;
+}
+
+.historical-significance {
+    font-size: 18px;
+    margin: 10px 25px;
+}
+
+.heading-of-tourism {
+    font-size: 30px;
+    margin: 30px 25px 10px 25px;
+    color: hsl(24, 97%, 42%);
+}
+
+.info-tourism {
+    font-size: 18px;
+    margin: 10px 25px;
+}
+
+.tourism-card-container {
+    display: flex;
+    background-color: #fdf4ea;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.tourism-card {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(255, 214, 160);
+    margin: 25px auto;
+    border-radius: 20px;
+    border: 1px solid rgb(253, 181, 88);
+    padding: 20px;
+}
+
+.tourism-card:hover {
+    background-color: rgb(252, 205, 119);
+}
+
+.img-tourism {
+    width: 300px;
+    display: block;
+    margin: 7px auto;
+}
+
+.tourism-card-heading {
+    color: #b82906;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.tourism-card-info {
+    font-size: 18px;
+}
+
+.tour-button {
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    width: 160px;
+    background-color: #f15a03;
+    color: #fff;
+    padding: 5px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid #da5203;
+}
+
+.tour-button:hover {
+    box-shadow: 0px 0px 3px 2px #e48046;
+}
+
+.footer-container {
+    background-color: #232946;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-part1 {
+    width: 470px;
+    position: relative;
+}
+
+.footer-img-heading {
+    display: flex;
+}
+
+.rajmudra-img {
+    height: 70px;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.heading-footer {
+    padding-left: 10px;
+    position: absolute;
+    left: 90px;
+    top: 7px;
+    font-size: 20px;
+}
+
+.info-in-footer {
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.icon {
+    height: 30px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.icon-container {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-part2 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.heading-footer2 {
+    font-size: 22px;
+}
+
+.quick-links {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.location-container {
+    display: flex;
+}
+
+.Contact-Us {
+    width: 320px;
+}
+
+.location {
+    margin: 2px;
+    font-size: 17px;
+}
+
+.icon-contact-us {
+    margin: 5px;
+    height: 23px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.location-container {
+    margin: 17px;
+}
+
+/* Small Device */
+@media screen and (max-width:600px) {}
+
+/* Medium Device */
+@media screen and (min-width:601px) and (max-width:768px) {}
+
+/* Tablet Device */
+@media screen and (min-width:769px) and (max-width:992px) {}
+
+/* Laptop Device */
+@media screen and (min-width:993px) and (max-width:1200px) {}
+
+/* Larg Device */
+@media screen and (min-width:1400px) {
+
+    .info-about-shivneri {
+        font-size: 22px;
+    }
+
+    .img {
+        height: 290px;
+    }
+
+    .historical-significance {
+        font-size: 22px;
+    }
+
+    .info-tourism {
+        font-size: 22px;
+    }
+
+    .tourism-card {
+        height: 400px;
+        width: 400px;
+    }
+
+    .tourism-card:hover {
+        background-color: rgb(252, 205, 119);
+    }
+
+    .img-tourism {
+        width: 300px;
+        display: block;
+        margin: 7px auto;
+    }
+
+    .tourism-card-heading {
+        color: #b82906;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+
+    .tourism-card-info {
+        font-size: 20px;
+    }
+
+    .tour-button {
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
+        border-radius: 50px;
+    }
+
+    .footer-part1 {
+        width: 500px;
+    }
+
+    .rajmudra-img {
+        height: 80px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .heading-footer {
+        padding-left: 10px;
+        position: absolute;
+        left: 110px;
+        font-size: 22px;
+    }
+
+    .info-in-footer {
+        font-size: 20px;
+        padding-left: 70px;
+    }
+
+    .icon {
+        height: 40px;
+    }
+
+    .footer-part2 {
+        width: 200px;
+
+    }
+
+    .heading-footer2 {
+        font-size: 25px;
+    }
+
+    .quick-links {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    .Contact-Us {
+        width: 350px;
+    }
+
+    .location {
+        margin: 2px;
+        font-size: 18px;
+    }
+
+    .icon-contact-us {
+        margin: 5px;
+        height: 25px;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .location-container {
+        margin: 17px;
+    }
+}

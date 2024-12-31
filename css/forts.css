@@ -5,7 +5,7 @@
 }
 
 .container-navbar {
-    height: 80px;
+    height: 100px;
     width: 100%;
     flex-direction: row;
     top: 0;
@@ -39,7 +39,6 @@
     justify-content: flex-start;
     margin: -30px 0 0 0;
     padding-bottom: 30px;
-
 }
 
 #Nav {
@@ -59,7 +58,7 @@ a:hover {
 .title {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 100px 20px;
     background-size: cover;
     background-position: center;
@@ -84,7 +83,7 @@ a:hover {
 
 .title h1:hover {
     color: transparent;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
 .paragraph-class {
@@ -150,6 +149,7 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: 450px;
     border-radius: 1px;
+    border: 15px solid #fcf1e0;
 }
 
 .fort-info {
@@ -199,34 +199,35 @@ a:hover {
     transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
     position: relative;
     padding: 10px 20px;
-    border-radius: 8px; 
-    background-color:rgba(255, 68, 0, 0.901); 
+    border-radius: 8px;
+    background-color: rgb(255, 126, 39);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .text-box::before {
-    content: ''; 
+    content: '';
     position: absolute;
-    left: 10px; 
+    left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px; 
-    height: 150px; 
+    width: 150px;
+    height: 150px;
     background-image: url('./../img/rajmudra.png');
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .text-box::after {
-    content: ''; 
+    content: '';
     position: absolute;
-    right: 10px; 
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px; 
-    height: 150px; 
-    background-image: url('./../img/rajmudra.png'); 
-    background-size: contain; 
+    width: 150px;
+    height: 150px;
+    background-image: url('./../img/rajmudra.png');
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -239,7 +240,7 @@ a:hover {
     transition: all 0.7s ease 0s;
     cursor: pointer;
     margin-top: 20px;
-    background-color: #ffffff;
+    background-color: rgb(255, 214, 160);
 }
 
 .container-image img {
@@ -288,110 +289,113 @@ a:hover {
     border-radius: 8px;
     cursor: pointer;
 }
-.btn:hover
-{
+
+.btn:hover {
     background-color: #f4821e;
     color: #ffffff;
     transition: 0.3s;
 }
+
 .h1-fort {
-    margin-top: 60px;
     font-size: 32px;
     color: #333;
     font-family: Arial, sans-serif;
-    text-align: center;color: #ffffff;
+    text-align: center;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     line-height: 2;
     text-align: center;
     transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
     position: relative;
     padding: 10px 20px;
-    border-radius: 8px; 
-    background-color: rgba(255, 68, 0, 0.901); 
+    border-radius: 8px;
+    background-color:rgb(255, 126, 39);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .h1-fort::before {
-    content: ''; 
+    content: '';
     position: absolute;
-    left: 10px; 
+    left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px; 
-    height: 150px; 
+    width: 150px;
+    height: 150px;
     background-image: url('./../img/rajmudra.png');
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .h1-fort::after {
-    content: ''; 
+    content: '';
     position: absolute;
-    right: 10px; 
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px; 
-    height: 150px; 
-    background-image: url('./../img/rajmudra.png'); 
-    background-size: contain; 
+    width: 150px;
+    height: 150px;
+    background-image: url('./../img/rajmudra.png');
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
-  .container{
+
+.container {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 30px;
-    gap: 25px;
-     box-shadow: solid #000000;
-     width: 100%;
-     cursor: pointer;
-  }
+    gap: 20px;
+    box-shadow: solid #000000;
+    width: 100%;
+    cursor: pointer;
+}
 
-  .fort {
+.fort {
     text-align: center;
-    margin: 10px;
-    flex: 1 1 calc(50% - 20px); 
+    margin: 15px;
+    flex: 1 1 calc(50% - 20px);
     max-width: 200px;
     cursor: pointer;
-  }
+}
 
-  .fort img {
-    width: 100%; 
-    height: 180px; 
+.fort img {
+    width: 100%;
+    height: 200px;
     transition: transform 0.3s ease;
-    border: 2px solid #000000; 
+    border: 10px solid #f4e2c7;
     cursor: pointer;
-  }
+}
 
-  .fort img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 2px 5px 3px rgb(255, 102, 0);
-    border: 2px solid #000000;
-  }
+.fort img:hover {
+    transform: scale(1.0);
+    box-shadow: 0 2px 5px 3px rgba(255, 102, 0, 0.867); 
+}
 
-  .fort-name {
+.fort-name {
     margin-top: 8px;
     font-weight: 900;
     font-size: 25px;
     color: #ff5100;
-  }
-
-  .table-body{
-    font-family: 'Arial', sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 250vh;
-            background-size: cover;
-            background-position: center;
 }
+
+.table-body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240vh;
+    background-size: cover;
+    background-position: center;
+}
+
 table {
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -400,7 +404,8 @@ table {
     background-color: #fff;
 }
 
-th, td {
+th,
+td {
     padding: 12px 15px;
     text-align: left;
     font-size: 16px;
@@ -419,7 +424,7 @@ tr:nth-child(even) {
 
 tr:hover {
     transform: scale(0.1.);
- background-color:#fc9753;
+    background-color: #fc9753;
 }
 
 
@@ -439,37 +444,38 @@ caption {
     position: relative;
     padding: 10px 20px;
     border-radius: 8px;
-    background-color: rgba(236, 100, 50, 0.901); 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: rgb(255, 126, 39);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 caption::before {
-    content: ''; 
+    content: '';
     position: absolute;
-    left: 10px; 
+    left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px; 
-    height: 150px; 
+    width: 150px;
+    height: 150px;
     background-image: url('./../img/rajmudra.png');
-    background-size: contain; 
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 caption::after {
-    content: ''; 
+    content: '';
     position: absolute;
-    right: 10px; 
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 150px; 
-    height: 150px; 
-    background-image: url('./../img/rajmudra.png'); 
-    background-size: contain; 
+    width: 150px;
+    height: 150px;
+    background-image: url('./../img/rajmudra.png');
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .footer_sub
 {
    display: flex;
@@ -477,7 +483,6 @@ caption::after {
     height: 350px;
     width: 100%;
     background-color: #232946;
-    margin-top: 100px;
  }
  .footer_1
  {
@@ -492,9 +497,8 @@ caption::after {
 #footer_img
 {
         height: 90px;
-        width: 150px;
+        width: 100px;
         cursor: pointer;
-        margin-top: 20px;
  }
  #footer_name
  {
@@ -635,12 +639,12 @@ caption::after {
    margin-left: 95%;
    cursor: pointer;
    }
-    @media screen and (min-width:760px){
-        .images{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 400px;
-               }
-      }
+@media screen and (min-width:760px) {
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 400px;
+    }
+}
