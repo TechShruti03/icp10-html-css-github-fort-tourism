@@ -19,7 +19,7 @@
 
         .container-navbar {
             height: 100px;
-            background-color: rgb(88, 88, 88);
+            background-color: rgb(70, 70, 70);
             position: sticky;
             top: 0px;
             display: flex;
@@ -117,25 +117,25 @@
             margin: 10px 25px;
         }
 
-        .heading-of-tourism{
+        .heading-of-tourism {
             font-size: 30px;
             margin: 30px 25px 10px 25px;
             color: hsl(24, 97%, 42%);
         }
 
-        .info-tourism{
+        .info-tourism {
             font-size: 18px;
             margin: 10px 25px;
         }
 
-        .tourism-card-container{
+        .tourism-card-container {
             display: flex;
             background-color: #fdf4ea;
             border-radius: 15px;
             padding: 10px 20px;
         }
 
-        .tourism-card{
+        .tourism-card {
             height: 400px;
             width: 350px;
             background-color: rgb(255, 214, 160);
@@ -145,17 +145,17 @@
             padding: 20px;
         }
 
-        .tourism-card:hover{
+        .tourism-card:hover {
             background-color: rgb(252, 205, 119);
         }
 
-        .img-tourism{
+        .img-tourism {
             width: 300px;
             display: block;
             margin: 7px auto;
         }
 
-        .tourism-card-heading{
+        .tourism-card-heading {
             color: #b82906;
             font-size: 25px;
             text-align: center;
@@ -163,25 +163,117 @@
             margin-bottom: 18px;
         }
 
-        .tourism-card-info{
+        .tourism-card-info {
             font-size: 18px;
+        }
+
+        .footer-container {
+            background-color: #232946;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content:space-evenly;
+        }
+
+        .footer-part1 {
+            width: 470px;
+            position: relative;
+        }
+
+        .footer-img-heading {
+            display: flex;
+        }
+
+        .rajmudra-img {
+            height: 70px;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+
+        .heading-footer {
+            padding-left: 10px;
+            position: absolute;
+            left: 90px;
+            top: 7px;
+            font-size: 20px;
+        }
+
+        .info-in-footer {
+            font-size: 16px;
+            padding-left: 50px;
+        }
+
+        .icon {
+            height: 30px;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 100%;
+        }
+
+        .icon-container {
+            margin: 30px 0px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-part2 {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+
+        }
+
+        .heading-footer2 {
+            font-size: 22px;
+        }
+
+        .quick-links {
+            text-decoration: none;
+            color: #fff;
+            margin-left: 30px;
+        }
+
+        .location-container{
+            display: flex;
+        }
+        .Contact-Us{
+            width: 320px;
+        }
+        .location{
+            margin: 2px;
+            font-size: 17px;
+        }
+
+        .icon-contact-us{
+            margin: 5px;
+            height: 23px;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 100%;
+        }
+        .location-container{
+            margin: 17px;
         }
     </style>
 </head>
 
 <body>
     <div class="container-shivneri-fort">
+
+        <!--Navbar-->
+
         <div class="container-navbar">
             <img src="./../img/logo.jpeg" alt="brand logo" class="brand-logo">
-            <a class="home-navbar navbar-content" href="#">HOME</a>
-            <a class="navbar-content" href="#">HISTORY</a>
-            <a class="navbar-content" href="#">GALLERY</a>
-            <a class="navbar-content" href="#">CONTACT US</a>
-            <a class="navbar-content" href="#">LOGIN OFFICE</a>
-            <a class="navbar-content" href="#">ABOUT US</a>
+            <a class="home-navbar navbar-content" href="./../index.html">HOME</a>
+            <a class="navbar-content" href="./history.html" target="_blank">HISTORY</a>
+            <a class="navbar-content" href="./gallary.html" target="_blank">GALLERY</a>
+            <a class="navbar-content" href="#" target="_blank">CONTACT US</a>
+            <a class="navbar-content" href="./login.html" target="_blank">LOGIN OFFICE</a>
+            <a class="navbar-content" href="./about.html" target="_blank">ABOUT US</a>
 
-            <input placeholder="Search..." class="search">
         </div>
+
+        <!--Content-->
 
         <div class="info-Shivneri-fort">
             <h1 class="heading">SHIVNERI FORT</h1>
@@ -219,31 +311,128 @@
                 </p>
             </div>
             <h2 class="heading-of-tourism">Tourism :</h2>
-            <p class="info-tourism">Shivneri Fort, located in Junnar, Maharashtra, is historically significant as the birthplace of Chhatrapati Shivaji Maharaj. Built in the 16th century, the fort features impressive stone walls, gates, bastions, and the Shivai Devi Temple. The fort offers stunning views of the surrounding landscape and has several caves. It is a popular destination for history lovers and nature enthusiasts. The best time to visit is during the winter months (October to March). Nearby attractions include the Leni Caves and Junnar Town.</p>
+            <p class="info-tourism">Shivneri Fort, located in Junnar, Maharashtra, is historically significant as the
+                birthplace of Chhatrapati Shivaji Maharaj. Built in the 16th century, the fort features impressive stone
+                walls, gates, bastions, and the Shivai Devi Temple. The fort offers stunning views of the surrounding
+                landscape and has several caves. It is a popular destination for history lovers and nature enthusiasts.
+                The best time to visit is during the winter months (October to March). Nearby attractions include the
+                Leni Caves and Junnar Town.</p>
             <div class="tourism-card-container">
                 <div class="tourism-card">
-                    <img src="./../img/shivai-devi-temple.jpg" alt="shivai-devi-temple" class="img-tourism"/>
+                    <img src="./../img/shivai-devi-temple.jpg" alt="shivai-devi-temple" class="img-tourism" />
                     <h2 class="tourism-card-heading">Shivai Devi Temple</h2>
                     <p class="tourism-card-info">
-                        The Shivai Temple at Shivneri Fort is dedicated to goddess Shivai, the kuldevi of Shivaji Maharaj. Located in his birthplace, the temple reflects Maratha heritage and offers a serene spiritual experience amid the Sahyadri hills.
+                        The Shivai Temple at Shivneri Fort is dedicated to goddess Shivai, the kuldevi of Shivaji
+                        Maharaj. Located in his birthplace, the temple reflects Maratha heritage and offers a serene
+                        spiritual experience amid the Sahyadri hills.
                     </p>
                 </div>
                 <div class="tourism-card">
-                    <img src="./../img/shivneri6.jpg" alt="shivai-devi-temple" class="img-tourism"/>
+                    <img src="./../img/shivneri6.jpg" alt="shivai-devi-temple" class="img-tourism" />
                     <h2 class="tourism-card-heading">Birthplace of Shivaji Maharaj</h2>
                     <p class="tourism-card-info">
-                        The birthplace of Shivaji Maharaj is a small chamber in Shivneri Fort, known as the "Janmasthan." He was born here on February 19, 1630, and the site holds great historical significance in Maratha history.
+                        The birthplace of Shivaji Maharaj is a small chamber in Shivneri Fort, known as the
+                        "Janmasthan." He was born here on February 19, 1630, and the site holds great historical
+                        significance in Maratha history.
                     </p>
                 </div>
                 <div class="tourism-card">
-                    <img src="./../img/shivneri2.jpg" alt="shivai-devi-temple" class="img-tourism"/>
+                    <img src="./../img/shivneri2.jpg" alt="shivai-devi-temple" class="img-tourism" />
                     <h2 class="tourism-card-heading">Shivneri Fort Walls and Gates</h2>
                     <p class="tourism-card-info">
-                        The fort's massive stone walls and impressive gates, including the main entrance, are architectural marvels that showcase its historical significance and defense strategies. The views from the top are breathtaking.
+                        The fort's massive stone walls and impressive gates, including the main entrance, are
+                        architectural marvels that showcase its historical significance and defense strategies. The
+                        views from the top are breathtaking.
                     </p>
                 </div>
-                
+
             </div>
+        </div>
+
+        <!--Footer-->
+
+        <div class="footer-container">
+            <div class="footer-part1">
+                <div class="footer-img-heading">
+                    <img src="./../img/rajmudra.png" alt="rajmudra" class="rajmudra-img">
+                    <h3 class="heading-footer">CHHATRAPATI SHIVAJI MAHARAJ</h3>
+                </div>
+                <p class="info-in-footer">Shivaji Maharaj, a visionary leader, founded the Maratha Empire through
+                    military innovations, wisdom quotes, and respect for women's rights, fostering harmony and inspiring
+                    generations with his legacy of resistance and governance.</p>
+                <div class="icon-container">
+                    <a href="https://www.facebook.com/WeAreTeamIndia/" rel="noopener" target="_blank">
+                        <img src="./../img/icons/facebook_icon.png" alt="facebook_icon" class="icon" />
+                    </a>
+
+                    <a href="https://www.instagram.com/WeAreTeamIndia/" rel="noopener" target="_blank">
+                        <img src="./../img/icons/instagram_icon.png" alt="instagram-icon" class="icon" />
+                    </a>
+
+                    <a href="https://www.twitter.com/WeAreTeamIndia/" rel="noopener" target="_blank">
+                        <img src="./../img/icons/twitter_icon.png" alt="twitter_icon" class="icon" />
+                    </a>
+
+                    <a href="https://www.linkdin.com/WeAreTeamIndia/" rel="noopener" target="_blank">
+                        <img src="./../img/icons/linkedin_icon.png" alt="linkedin_icon" class="icon" />
+                    </a>
+
+                    <a href="https://www.whatsapp.com/WeAreTeamIndia/" rel="noopener" target="_blank">
+                        <img src="./../img/icons/whatsapp_icon.png" alt="whatsapp_icon" class="icon" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-part2">
+
+                <h3 class="heading-footer2">Quick links</h3>
+
+                <a href="./../index.html" rel="noopener" target="_blank" class="quick-links">
+                    Home
+                </a>
+
+                <a href="./history.html" rel="noopener" target="_blank" class="quick-links">
+                    History
+                </a>
+
+                <a href="./gallary.html" rel="noopener" target="_blank" class="quick-links">
+                    Gallery
+                </a>
+
+                <a href="#" rel="noopener" target="_blank" class="quick-links">
+                    Contact Us
+                </a>
+
+                <a href="./login.html" rel="noopener" target="_blank" class="quick-links">
+                    Login Office
+                </a>
+
+                <a href="./about.html" rel="noopener" target="_blank" class="quick-links">
+                    About Us
+                </a>
+
+            </div>
+
+            <div class="footer-part3">
+                <div class="Contact-Us">
+                    <h3 class="heading-footer2">Contact Us</h3>
+                    <div class="location-container">
+                        <img src="./../img/icons/location.png" alt="location" class="icon-contact-us">
+                        <p class="location">Fort Tourism, Mahalunge, Pune, Maharashtra 411045</p>
+                    </div>
+        
+                    <div class="location-container">
+                        <img src="./../img/icons/phone_icon.png" alt="location" class="icon-contact-us">
+                        <p class="location">+91-1239870990</p>
+                    </div>
+                    
+                    <div class="location-container">
+                        <img src="./../img/icons/gmail_icon.png" alt="location" class="icon-contact-us">
+                        <p class="location">chhatraptishivajimaharaj@gmail.com</p>
+                    </div>
+        
+            </div>
+
         </div>
 
     </div>
