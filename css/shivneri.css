@@ -158,6 +158,24 @@ body {
     font-size: 18px;
 }
 
+.tour-button{
+    display: block;
+    cursor: pointer;
+    height: 50px;
+    width: 160px;
+    background-color: #f15a03;
+    color: #fff;
+    padding: 5px;
+    margin: 20px auto;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 2px solid #da5203;
+}
+
+.tour-button:hover{
+    box-shadow: 0px 0px 3px 2px #e48046;
+}
+
 .footer-container {
     background-color: #232946;
     color: #fff;
