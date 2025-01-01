@@ -372,6 +372,10 @@ cursor: pointer;
    margin-left:95%;
    cursor: pointer;
    }
+   .cont_1
+   {
+    padding-top: 100px;
+   }
     
    
     @media screen and (min-width:760px){
