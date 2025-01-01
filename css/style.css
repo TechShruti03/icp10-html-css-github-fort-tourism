@@ -10,6 +10,7 @@
 }
 
 .whole_page{
+    margin-top: 140px;
     padding: 20px;
     background-image: url(./../img/background1.jpg);
     height: 100%;

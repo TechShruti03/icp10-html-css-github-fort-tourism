@@ -14,18 +14,22 @@
          padding: 0;
          box-sizing: border-box;
       }
-
-      .container {
-         height: 160px;
-         width: 100%;
-         flex-direction: row;
-         display: flex;
-         flex-wrap: wrap;
-         border-radius: none;
-         background: rgba(0, 0, 0, 0.4);
-         padding: 10px;
-      }
-
+      .container
+{
+     height: 140px;
+     width: 100%;
+     flex-direction: row;
+     top: 0;
+     display: flex;
+     /*flex-wrap: wrap;*/
+     border-radius: none;
+     background-color: rgb(88, 88, 88);
+     position:fixed;
+     padding-top: -100px;
+     z-index: 1000;
+     background-color: rgb(88, 88, 88);
+     position: sticky;
+}
       .item {
          background-color: #fad8a4;
          height: 450px;
@@ -110,6 +114,7 @@
             <p id="Nav"><a href="./pages/about.html">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US</a></p>
             <p id="Nav"><a href="./pages/histroy.html">&nbsp;&nbsp;&nbsp;&nbsp;HISTROY</a></p>
             <p id="Nav"><a href="./pages/gallery.html">&nbsp;&nbsp;&nbsp;&nbsp;GALLERY</a></p>
+            <p id="Nav"><a href="./../pages/forts.html">&nbsp;&nbsp;&nbsp;&nbsp;FORTS</a></p>
             <p id="Nav"><a href="./pages/contact.html">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US</a></p>
             <p id="Nav"><a href="./pages/login.html">&nbsp;&nbsp;&nbsp;&nbsp;LOGIN OFFICE </a></p>
          </div>
