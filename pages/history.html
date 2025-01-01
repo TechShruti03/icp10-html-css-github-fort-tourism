@@ -25,16 +25,18 @@
         }
 
         .container {
-            height: 160px;
+            height: 140px;
             width: 100%;
             flex-direction: row;
+            top: 0;
             display: flex;
-            flex-wrap: wrap;
             border-radius: none;
-            background:rgba(0, 0, 0, 0.4);
-            ;
-            padding: 10px;
-            position:sticky;
+            background-color: rgb(88, 88, 88);
+            position:fixed;
+            padding-top: -100px;
+            z-index: 1000;
+            background-color: rgb(88, 88, 88);
+            position: sticky;
         }
 
         .head {
@@ -60,6 +62,7 @@
         }
 
         header {
+            margin-top: 140px;
             background-color: #f5a556;
             color: white;
             text-align: center;
@@ -139,7 +142,7 @@
         }
 
         #footer_img {
-            height: 90px;
+            height: 80px;
             width: 100px;
             cursor: pointer;
         }
@@ -280,14 +283,6 @@
             padding: 10px;
         }
 
-        .stick {
-            height: 50px;
-            position: sticky;
-            top: 100px;
-            margin-left: 95%;
-            cursor: pointer;
-        }
-
 
         @media screen and (min-width:760px) {
             .images {
@@ -413,10 +408,10 @@
             </div>
             <div class="footer_1">
                 <span id="link">Contact Us</span>
-                <a href="./pages/location.html" target="_blank"><img src="/img/icons/location.png" alt=""
+                <a href="./pages/location.html" target="_blank"><img src="./../img/icons/location.png" alt=""
                         id="location"></a>
                 <p id="footer_text1"> Fort Tourism, Mahalunge, Pune, Maharashtra 411045</p>
-                <a href="tel:+91-1239870990"><img src="/img/icons/phone_icon.png" alt="" id="location1"></a>
+                <a href="tel:+91-1239870990"><img src="./../img/icons/phone_icon.png" alt="" id="location1"></a>
                 <p id="footer_text2">+91-1239870990</p>
                 <img src="./../img/icons/gmail_icon.png" alt="" id="location2">
                 <p id="footer_text3">chhatraptishivajimaharaj@gmail.com</p>
