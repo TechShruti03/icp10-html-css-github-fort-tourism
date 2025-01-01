@@ -290,6 +290,7 @@ body{
            margin-left: 95%;
            cursor: pointer;
            }
+
             
            
             @media screen and (min-width:760px){
@@ -301,3 +302,142 @@ body{
             height: 400px;
                        }
               }
+
+
+/* Media Query for Laptop Screens */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .booking-page {
+        height: auto;
+        padding: 20px;
+    }
+
+    .booking-page h1 {
+        font-size: 2.5em;
+    }
+
+    .booking-page form {
+        width: 80%;
+    }
+
+    .subcontainers {
+        flex-direction: row;
+        height: auto;
+        width: 90%;
+    }
+
+    .fort1 {
+        width: 25%;
+    }
+
+    .Tour {
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .tourpic {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+/* Media Query for Tablet Screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .booking-page {
+        height: auto;
+        padding: 10px;
+    }
+
+    .booking-page h1 {
+        font-size: 2em;
+    }
+
+    .booking-page form {
+        width: 90%;
+    }
+
+    .subcontainers {
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+    }
+
+    .fort1 {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .Tour {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tourpic {
+        width: 200px;
+        height: 120px;
+    }
+}
+
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 767px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .booking-page {
+        height: auto;
+        padding: 10px;
+    }
+
+    .booking-page h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .booking-page form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .subcontainers {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .fort1 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .Tour {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tourpic {
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer_sub {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer_text,
+    #footer_text1,
+    #footer_text2,
+    #footer_text3 {
+        font-size: 14px;
+    }
+
+    #link {
+        margin: 10px auto;
+        font-size: 18px;
+    }
+}
