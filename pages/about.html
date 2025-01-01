@@ -37,7 +37,7 @@
             padding: 10px;
             border-radius: 10px;
             border-style: none;
-        position: static;
+            position: static;
             right: 400px;
             top: 800px;
         
@@ -45,9 +45,9 @@
         #Btn:hover{
             background-color: #e5db6b;
             color: #171616;
-transition: 1s;
-box-shadow: 0 5px 10px rgb(41, 37, 38);
-cursor: pointer;
+            transition: 1s;
+            box-shadow: 0 5px 10px rgb(41, 37, 38);
+            cursor: pointer;
         }
         #info{
             margin: 90px 0 0 80px;
@@ -62,12 +62,15 @@ cursor: pointer;
              height: 160px;
              width: 100%;
              flex-direction: row;
+             top: 0;
              display: flex;
-             flex-wrap: wrap;
              border-radius: none;
              background-color: rgb(88, 88, 88);
-            position: sticky;
-             padding: 10px;
+             position: fixed;
+             padding-top: -100px;
+             z-index: 1000;
+             background-color: rgb(88, 88, 88);
+             position: sticky;
         }
         .head
         {
@@ -80,8 +83,9 @@ cursor: pointer;
         font-size: 35px;
 
         }
-        .cont:hover{ color: black;
-        font-size: 35px;
+        .cont:hover{ 
+            color: black;
+            font-size: 35px;
         }
         .img
         {
