@@ -121,6 +121,7 @@ body {
 
 .tourism-card-container {
     display: flex;
+    flex-wrap: wrap;
     background-color: #fdf4ea;
     border-radius: 15px;
     padding: 10px 20px;
@@ -271,13 +272,128 @@ body {
 @media screen and (max-width:600px) {}
 
 /* Medium Device */
-@media screen and (min-width:601px) and (max-width:768px) {}
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .img {
+        height: 180px;
+        margin: 5px;
+    }
+
+    .img2{
+        display: none;
+    }
+
+    .tourism-card {
+        height: 400px;
+        width: 280px;
+        margin: 25px auto;
+        padding: 18px;
+    }
+
+    .img-tourism {
+        width: 250px;
+        display: block;
+        margin: 7px auto;
+    }
+
+    .tourism-card-heading {
+        font-size: 22px;
+    }
+
+    .tourism-card-info {
+        font-size: 18px;
+    }
+}
 
 /* Tablet Device */
-@media screen and (min-width:769px) and (max-width:992px) {}
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .img {
+        height: 180px;
+        margin: 8px;
+    }
+
+    .info-about-shivneri {
+        font-size: 17px;
+    }
+
+    .historical-significance {
+        font-size: 17px;
+        margin: 10px 25px;
+    }
+
+    .tourism-card {
+        height: 400px;
+        width: 280px;
+        margin: 25px auto;
+        padding: 18px;
+    }
+
+    .info-tourism {
+        font-size: 17px;
+        margin: 10px 25px;
+    }
+
+    .tourism-card-info {
+        font-size: 17px;
+    }
+
+    .img-tourism {
+        width: 250px;
+        display: block;
+        margin: 7px auto;
+    }
+
+    .tourism-card-heading {
+        font-size: 22px;
+    }
+
+    .tourism-card-info {
+        font-size: 17px;
+    }
+}
 
 /* Laptop Device */
-@media screen and (min-width:993px) and (max-width:1200px) {}
+@media screen and (min-width:993px) and (max-width:1270px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .img {
+        height: 200px;
+        margin: 8px;
+    }
+
+    .tourism-card {
+        height: 400px;
+        width: 280px;
+        margin: 25px auto;
+        padding: 18px;
+    }
+
+    .img-tourism {
+        width: 250px;
+        display: block;
+        margin: 7px auto;
+    }
+
+    .tourism-card-heading {
+        font-size: 22px;
+    }
+
+    .tourism-card-info {
+        font-size: 18px;
+    }
+
+}
 
 /* Larg Device */
 @media screen and (min-width:1400px) {
