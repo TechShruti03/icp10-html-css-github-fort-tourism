@@ -25,16 +25,18 @@
         }
 
         .container {
-            height: 160px;
+            height: 140px;
             width: 100%;
             flex-direction: row;
+            top: 0;
             display: flex;
-            flex-wrap: wrap;
             border-radius: none;
-            background:rgba(0, 0, 0, 0.4);
-            ;
-            padding: 10px;
-            position:sticky;
+            background-color: rgb(88, 88, 88);
+            position:fixed;
+            padding-top: -100px;
+            z-index: 1000;
+            background-color: rgb(88, 88, 88);
+            position: sticky;
         }
 
         .head {
@@ -60,6 +62,7 @@
         }
 
         header {
+            margin-top: 140px;
             background-color: #f5a556;
             color: white;
             text-align: center;
